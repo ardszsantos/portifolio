@@ -1,0 +1,23 @@
+.glassy-box {
+
+
+  border-radius: 10px;
+  /* Rounded corners */
+  backdrop-filter: blur(2px);
+  /* Glassy effect */
+  -webkit-backdrop-filter: blur(10px);
+  /* Support for Safari */
+  padding: 70px;
+  /* Optional shadow */
+  width: 50%;
+  /* Can adjust width as needed */
+  height: auto;
+  /* Can adjust height as needed */
+  max-width: 1200px;
+  /* Control maximum width */
+  margin: 0 auto;
+  /* Centers the glassy box */
+
+  display: flex;
+    gap: 9em;
+}
