@@ -16,10 +16,10 @@
 
 .text-container h1 {
   font-size: 71px;
-  background-color: #FF3CAC;
-  background-image: linear-gradient(225deg, #FF3CAC 60%, #784BA0 50%, #2B86C5 80%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+}
+
+.text-container h1 span {
+
 }
 
 .text-container p {

@@ -6,10 +6,29 @@
   align-items: center;
   height: 50px;
   padding: 24px 200px;
-
   box-shadow: 2px 3px 8px black;
   font-family: "JetBrains Mono", monospace;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
 
+.main-nav::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../assets/images/BACKGROUND.png");
+  
+  /* Ajuste de posição igual ao da .App */
+  background-repeat: no-repeat;
+  /* Ou contain, depende do que você está usando */
+  z-index: -1;
+  /* Coloca o pseudo-elemento atrás da navbar */
+  background-attachment: fixed;
+  /* Fixa o background */
 }
 
 .logo {
@@ -18,6 +37,7 @@
   align-items: center;
   color: white;
   margin-left: 100px;
+
 }
 
 .logo img {
@@ -25,11 +45,16 @@
   height: 50px;
 }
 
+.logo img:hover {
+  transform: scale(1.2);
+}
+
 .navigation {
   display: flex;
   align-items: center;
   gap: 4em;
   font-size: 20px;
+
 }
 
 .navigation p a {

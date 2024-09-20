@@ -1,0 +1,11 @@
+.wrapper-two {
+  margin-top: 600px;
+  height: 80vh;
+  color: white;
+}
+
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

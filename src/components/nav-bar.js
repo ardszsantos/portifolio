@@ -19,8 +19,12 @@ const NavBar = () => {
   const commands = {
     cd: (section) => {
       const element = document.getElementById(section);
+      console.log(element)
       if (element) {
-        element.scrollIntoView({ behavior: 'smooth' });
+        // Manually calculate the scroll position with an offset for the sticky navbar
+        const yOffset = -70; // Adjust this value to the height of your sticky navbar
+        const yPosition = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+        window.scrollTo({ top: yPosition, behavior: 'smooth' });
         return `Navigating to ${section}`;
       } else {
         return `Section "${section}" not found.`;
