@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ReactTerminal } from 'react-terminal';
+import { ReactTerminal, TerminalContextProvider } from 'react-terminal';
 import '../styles/nav-bar.css';
 import terminal from '../assets/images/terminal-svgrepo-com.svg';
 
@@ -15,16 +15,24 @@ const NavBar = () => {
     setShowTerminal(!showTerminal);
   };
 
+  // Define commands
   const commands = {
     cd: (section) => {
       const element = document.getElementById(section);
       if (element) {
         element.scrollIntoView({ behavior: 'smooth' });
+        return `Navigating to ${section}`;
       } else {
         return `Section "${section}" not found.`;
       }
     },
-    help: () => 'Available commands: cd [section], help',
+    echo: (...args) => {
+      const text = args.join(' ');
+      return text || 'Please provide some text to echo!';
+    },
+    help: () => {
+      return 'Available commands: cd [section], echo [text], help, clear';
+    }
   };
 
   return (
@@ -45,15 +53,18 @@ const NavBar = () => {
 
       {showTerminal && (
         <div className="terminal-container">
-          <ReactTerminal
-            commands={commands}
-            welcomeMessage="Welcome to the terminal! Type 'help' to see available commands."
-            prompt="ards.dev> "
-          />
+          <TerminalContextProvider>
+            <ReactTerminal
+              welcomeMessage="Welcome to the terminal! Type 'help' to see available commands."
+              prompt="ards.dev> "
+              commands={commands}
+              errorMessage={"Command not found!"}
+            />
+          </TerminalContextProvider>
         </div>
       )}
     </div>
   );
-}
+};
 
 export default NavBar;
