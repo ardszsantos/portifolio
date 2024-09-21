@@ -1,15 +1,20 @@
 .wrapper-two {
   margin-top: 600px;
-  height: 800px;
+  height: 900px;
   color: white;
 }
 
 .about-container {
- 
+
   justify-content: center;
   align-items: center;
 }
 
 .about-container h1 {
   font-size: 43px;
+}
+
+.about-cards {
+  display: flex;
+  gap: 20px;
 }

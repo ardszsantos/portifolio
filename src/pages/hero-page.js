@@ -6,11 +6,11 @@ const HeroSection = () => {
   const greaterthan = '>'
 
   return (  
-    <div className="wrapper">
+    <div id='hero' className="wrapper">
       <GlassyBox>
       <div className='text-container'>
           <h1><span> {greaterthan} Olá, sou Alexandre <br /> Rodrigues</span> 👋 </h1>
-          <p> {greaterthan}  Desenvolvedor com foco em Front End apaixonado<br /> por criar  
+          <p> Desenvolvedor com foco em Front End apaixonado<br /> por criar  
           soluções inovadoras e eficientes.</p>
         <button>Saiba Mais</button>
       </div>

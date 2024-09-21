@@ -1,7 +1,7 @@
 import GlassyBox from '../components/glassybox';
 import '../styles/about-me.css'
-
-import info from '../assets/images/info-svgrepo-com.svg'
+import kubuntu from '../assets/images/kubuntu-svgrepo-com.svg';
+import CardComponent from '../components/card';
 
 const AboutPage = () => {
 
@@ -18,8 +18,14 @@ const AboutPage = () => {
               de processos com <span className='python-span'>python</span> e Análise de dados.
             </p>
           </div>
-          <div className='about-cards'>
             <h2>Interesses</h2>
+          <div className='about-cards'>
+            <CardComponent img={kubuntu} title={'Linux'} subtitle={`Kubuntu (Ubuntu com KDE nativo) é meu OS preferido para desenvolvimento.  atualmente uso um dualboot na minha máquina pessoal
+              com Kubuntu & Windows 10.`}/>
+            <CardComponent img={kubuntu} title={'Linux'} subtitle={`Kubuntu (Ubuntu com KDE nativo) é meu OS preferido para desenvolvimento.  atualmente uso um dualboot na minha máquina pessoal
+              com Kubuntu & Windows 10.`}/>
+            <CardComponent img={kubuntu} title={'Linux'} subtitle={`Kubuntu (Ubuntu com KDE nativo) é meu OS preferido para desenvolvimento.  atualmente uso um dualboot na minha máquina pessoal
+              com Kubuntu & Windows 10.`}/>
           </div>
         </div>
       </GlassyBox>
