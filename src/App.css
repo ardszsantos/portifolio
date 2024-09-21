@@ -8,10 +8,11 @@ body {
 
 .App {
   background-color: #a73d3d;
-  background-image: url("./assets/images/BACKGROUND.png");
-  background-repeat: no-repeat;
+  background-image: url("./assets/images/background2.png");
+  background-size: cover;
   background-attachment: fixed;
   height: auto;
   min-height: 100vh;
+  min-width: 100vw;
 
 }
