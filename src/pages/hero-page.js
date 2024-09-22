@@ -11,7 +11,9 @@ const HeroSection = () => {
         <h1> Olá, sou <br /> <span className='great-span'> {greaterthan}</span> <span className='ale-span'> Alexandre  Rodrigues</span> 👋 </h1>
           <p> Desenvolvedor Front End apaixonado por criar  
           soluções inovadoras e eficientes.</p>
-        <button>Saiba Mais</button>
+        <div className='billboard'>
+
+        </div>
       </div>
       <div className=''>
         
