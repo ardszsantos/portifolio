@@ -1,19 +1,26 @@
 .wrapper-two {
   display: flex;
-  margin-top: 600px;
+  margin-top: 550px;
   height: 900px;
   color: white;
   justify-content: center;
 }
 
 .about-container {
-
   justify-content: center;
   align-items: center;
 }
 
 .about-container h1 {
-  font-size: 43px;
+  font-size: 63px;
+}
+
+.about-p {
+  margin-bottom: 6em;
+}
+
+.interesses {
+  margin-bottom: 1.5em;
 }
 
 .about-cards {

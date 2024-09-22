@@ -21,8 +21,41 @@
   font-size: 71px;
 }
 
-.text-container h1 span {
+.great-span {
+    background: linear-gradient(to right,
+          #1eff00 20%,
+          #03a700 30%,
+          #70ff23 70%,
+          #00b609 80%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-fill-color: transparent;
+      background-size: 200% auto;
+      /* Increase background size to allow animation */
+      animation: textShine 5s ease-in-out infinite alternate;
+}
 
+.ale-span {
+  background: rgb(41, 177, 3);
+  background: linear-gradient(34deg, rgba(41, 177, 3, 1) 2%, rgba(48, 255, 201, 1) 49%, rgba(255, 184, 0, 1) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  background-size: 200% auto;
+  /* Increase background size to allow animation */
+  animation: textShine 5s ease-in-out infinite alternate;
+}
+
+@keyframes textShine {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 100% 0;
+  }
 }
 
 .text-container p {
