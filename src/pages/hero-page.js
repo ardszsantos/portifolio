@@ -1,5 +1,4 @@
 import '../styles/hero-page.css'
-import GlassyBox from '../components/glassybox';
 
 const HeroSection = () => {
 
@@ -7,9 +6,9 @@ const HeroSection = () => {
 
   return (  
     <div id='hero' className="wrapper">
-      <GlassyBox>
+
       <div className='text-container'>
-          <h1><span> {greaterthan} Olá, sou Alexandre <br /> Rodrigues</span> 👋 </h1>
+        <h1><span> Olá, sou <br /> {greaterthan} Alexandre  Rodrigues</span> 👋 </h1>
           <p> Desenvolvedor com foco em Front End apaixonado<br /> por criar  
           soluções inovadoras e eficientes.</p>
         <button>Saiba Mais</button>
@@ -17,7 +16,7 @@ const HeroSection = () => {
       <div className=''>
         
       </div>
-      </GlassyBox>
+      
     </div>
   );
 }

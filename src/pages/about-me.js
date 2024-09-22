@@ -1,4 +1,4 @@
-import GlassyBox from '../components/glassybox';
+
 import '../styles/about-me.css'
 import kubuntu from '../assets/images/kubuntu-svgrepo-com.svg';
 import CardComponent from '../components/card';
@@ -9,7 +9,6 @@ const AboutPage = () => {
 
   return (  
     <div id='about' className='wrapper-two'>
-      <GlassyBox>
         <div className='about-container'>
           <h1> {greaterthan} sobre mim_</h1>
           <div className='about-p'>
@@ -28,7 +27,6 @@ const AboutPage = () => {
               com Kubuntu & Windows 10.`}/>
           </div>
         </div>
-      </GlassyBox>
     </div>
   );
 }

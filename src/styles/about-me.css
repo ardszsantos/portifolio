@@ -1,7 +1,9 @@
 .wrapper-two {
+  display: flex;
   margin-top: 600px;
   height: 900px;
   color: white;
+  justify-content: center;
 }
 
 .about-container {
