@@ -15,6 +15,7 @@
 
 .text-container {
   text-align: center;
+  z-index: 2;
 }
 
 .text-container h1 {
@@ -63,6 +64,8 @@
 }
 
 .billboard {
+  position: absolute;
+  top: 60%;
   
 }
 
