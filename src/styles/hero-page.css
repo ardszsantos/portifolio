@@ -65,8 +65,9 @@
 
 .billboard {
   position: absolute;
-  top: 60%;
-  
+  top: 52%;
+  opacity: 20%;
+  color: black;
 }
 
 @media (max-width: 600px) {
