@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { ReactTerminal, TerminalContextProvider } from 'react-terminal';
 import '../styles/nav-bar.css';
+import '../styles/switch.css';
 import terminal from '../assets/images/terminal-svgrepo-com.svg';
 
 const NavBar = () => {
@@ -46,10 +47,16 @@ const NavBar = () => {
         <img src={terminal} alt="Terminal icon" onClick={toggleTerminal} />
       </div>
       <nav className={`navigation ${isOpen ? 'active' : ''}`}>
-        <p><a href="#sobre" id="sobre">Sobre</a></p>
-        <p><a href="#habilidades" id="habilidades">Habilidades</a></p>
-        <p><a href="#projetos" id="projetos">Projetos</a></p>
-        <p><a href="#contato" id="contato">Contato</a></p>
+        <p><a href="#sobre" id="sobre">#Sobre</a></p>
+        <p><a href="#habilidades" id="habilidades">#Habilidades</a></p>
+        <p><a href="#projetos" id="projetos">#Projetos</a></p>
+        <p><a href="#contato" id="contato">#Contato</a></p>
+        <div class="switch ">
+          <input id="language-toggle" class="check-toggle check-toggle-round-flat " type="checkbox"/>
+            <label for="language-toggle"></label>
+            <span class="on">PT</span>
+            <span class="off">EN</span>
+        </div>
       </nav>
       <button className="hamburger" onClick={toggleMenu}>
         &#9776;
