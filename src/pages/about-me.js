@@ -1,32 +1,44 @@
-
-import '../styles/about-me.css'
+import React from 'react';
+import { useTranslation } from 'react-i18next';
+import '../styles/about-me.css';
 import kubuntu from '../assets/images/kubuntu-svgrepo-com.svg';
 import web from '../assets/images/web-svgrepo-com.svg';
 import ai from '../assets/images/ai-solid-svgrepo-com.svg';
 import CardComponent from '../components/card';
 
 const AboutPage = () => {
+  const { t } = useTranslation(); // Hook to access translations
 
-  const greaterthan = '>'
 
-  return (  
+  return (
     <div id='about' className='wrapper-two'>
-        <div className='about-container'>
-          <h1> {greaterthan} sobre mim_</h1>
-          <div className='about-p'>
-            <p>Tenho 18 anos, e sou completamente apaixonado por código. Apesar do meu foco atual em <span className='front-span'>front-end</span> , tenho como <br/>
-              objetivo me tornar um desenvolvedor <span className='fullstack-span'>fullstack</span>. Além do web-development, tenho experiência com automatização  <br/>
-              de processos com <span className='python-span'>python</span> e Análise de dados.
-            </p>
-          </div>
-            <h2 className='interesses'>Interesses</h2>
-          <div className='about-cards'>
-            <CardComponent img={kubuntu} title={'Linux'} subtitle={`Kubuntu (Ubuntu com KDE nativo) é meu OS preferido para desenvolvimento.  atualmente uso um dualboot na minha máquina pessoal
-              com Kubuntu & Windows 10.`}/>
-          <CardComponent img={web} title={'Web Development'} subtitle={`Web development é minha princípal área de atuação. Tenho experiência com tecnologias modernas como React, Next.js e Tailwind, e foco em criar interfaces responsivas e dinâmicas.`}/>
-          <CardComponent img={ai} title={'Inteligência Artificial'} subtitle={`Utilizo ferramentas de IA para otimizar e acelerar meu fluxo de trabalho no desenvolvimento web, aproveitando o poder dessas tecnologias para aprimorar a produtividade e a eficiência em meus projetos.`}/>
-          </div>
+      <div className='about-container'>
+        <h1>  {t('about_me_title')}</h1>
+        <div className='about-p'>
+          <p>{t('about_me_description_1')} <span className='front-span'>{t('about_me_frontend')}</span>, {t('about_me_description_2')}
+            <br /> {t('about_me_description_3')} <span className='fullstack-span'>{t('about_me_fullstack')}</span>. {t('about_me_description_4')} <br />
+            {t('about_me_description_5')} <span className='python-span'>{t('about_me_python')}</span> {t('about_me_description_6')}.
+          </p>
         </div>
+        <h2 className='interesses'>{t('interests_title')}</h2>
+        <div className='about-cards'>
+          <CardComponent
+            img={kubuntu}
+            title={t('linux_interest_title')}
+            subtitle={t('linux_interest_description')}
+          />
+          <CardComponent
+            img={web}
+            title={t('web_dev_interest_title')}
+            subtitle={t('web_dev_interest_description')}
+          />
+          <CardComponent
+            img={ai}
+            title={t('ai_interest_title')}
+            subtitle={t('ai_interest_description')}
+          />
+        </div>
+      </div>
     </div>
   );
 }

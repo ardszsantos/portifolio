@@ -1,12 +1,15 @@
+// src/components/NavBar.js
 import React, { useState } from 'react';
 import { ReactTerminal, TerminalContextProvider } from 'react-terminal';
+import { useTranslation } from 'react-i18next';
 import '../styles/nav-bar.css';
-import '../styles/switch.css';
 import terminal from '../assets/images/terminal-svgrepo-com.svg';
+import LengSwitcher from './lengswitcher.js';
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [showTerminal, setShowTerminal] = useState(false);
+  const { t } = useTranslation(); // Hook to access translations
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -20,10 +23,8 @@ const NavBar = () => {
   const commands = {
     cd: (section) => {
       const element = document.getElementById(section);
-      console.log(element)
       if (element) {
-        // Manually calculate the scroll position with an offset for the sticky navbar
-        const yOffset = -190; // Adjust this value to the height of your sticky navbar
+        const yOffset = -190;
         const yPosition = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
         window.scrollTo({ top: yPosition, behavior: 'smooth' });
         return `Navigating to ${section}`;
@@ -36,7 +37,7 @@ const NavBar = () => {
       return text || 'Please provide some text to echo!';
     },
     help: () => {
-      return 'Available commands: cd [section], echo [text], help, clear';
+      return t('terminal_help_message');
     }
   };
 
@@ -47,16 +48,11 @@ const NavBar = () => {
         <img src={terminal} alt="Terminal icon" onClick={toggleTerminal} />
       </div>
       <nav className={`navigation ${isOpen ? 'active' : ''}`}>
-        <p><a href="#sobre" id="sobre">#Sobre</a></p>
-        <p><a href="#habilidades" id="habilidades">#Habilidades</a></p>
-        <p><a href="#projetos" id="projetos">#Projetos</a></p>
-        <p><a href="#contato" id="contato">#Contato</a></p>
-        <div class="switch ">
-          <input id="language-toggle" class="check-toggle check-toggle-round-flat " type="checkbox"/>
-            <label for="language-toggle"></label>
-            <span class="on">PT</span>
-            <span class="off">EN</span>
-        </div>
+        <p><a href="#about">{t('nav_about')}</a></p>
+        <p><a href="#skills">{t('nav_skills')}</a></p>
+        <p><a href="#projects">{t('nav_projects')}</a></p>
+        <p><a href="#contact">{t('nav_contact')}</a></p>
+        <LengSwitcher />
       </nav>
       <button className="hamburger" onClick={toggleMenu}>
         &#9776;
@@ -66,10 +62,10 @@ const NavBar = () => {
         <div className="terminal-container">
           <TerminalContextProvider>
             <ReactTerminal
-              welcomeMessage="Welcome to the terminal! Type 'help' to see available commands."
+              welcomeMessage={t('terminal_welcome_message')}
               prompt="ards.dev> "
               commands={commands}
-              errorMessage={"Command not found!"}
+              errorMessage={t('terminal_error_message')}
             />
           </TerminalContextProvider>
         </div>
