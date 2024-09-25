@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 .wrapper-two {
   display: flex;
   margin-top: 20em;
@@ -15,23 +18,50 @@
 }
 
 .about-container h1 {
-  font-size: 63px;
+  font-size: 55px;
+  font-family: "Open Sans", sans-serif;
 }
 
 .about-p {
   width: 800px;
-
+  font-size: 16px;
+  text-align: center;
+  font-family: "JetBrains Mono", monospace;
 }
 
 .interesses {
+  font-family: "Open Sans", sans-serif;
   margin-bottom: 1.5em;
 }
 
 .about-cards {
+  font-family: "Open Sans", sans-serif;
   display: flex;
   gap: 20px;
 }
 
+.python-span {
+  background: linear-gradient(90deg, #306998, #FFD43B, #FFE873);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.fullstack-span {
+  background: linear-gradient(90deg, #00C9FF, #92FE9D, #E0E0E0);
+  /* Silver, Blue, Green */
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.front-span {
+  background: linear-gradient(90deg, #D16BA5, #86A8E7, #5FFBF1);
+  /* Purple, Pink, Blue */
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 @media (max-width: 600px) {
 
