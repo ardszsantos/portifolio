@@ -1,12 +1,15 @@
 .wrapper-two {
   display: flex;
-  margin-top: 550px;
+  margin-top: 20em;
   height: 900px;
   color: white;
   justify-content: center;
+  align-items: center;
 }
 
 .about-container {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -16,7 +19,8 @@
 }
 
 .about-p {
-  margin-bottom: 6em;
+  width: 800px;
+
 }
 
 .interesses {
@@ -26,4 +30,32 @@
 .about-cards {
   display: flex;
   gap: 20px;
+}
+
+
+@media (max-width: 600px) {
+
+  .wrapper-two {
+    display: flex;
+    margin-top: 20em;
+    height: 100%;
+    color: white;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-container h1 {
+    font-size: 44px;
+  }
+
+  .about-p {
+    width: 335px; 
+    text-align: center;
+  }
+
+  .about-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
 }

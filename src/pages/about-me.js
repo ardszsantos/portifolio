@@ -16,8 +16,8 @@ const AboutPage = () => {
         <h1>  {t('about_me_title')}</h1>
         <div className='about-p'>
           <p>{t('about_me_description_1')} <span className='front-span'>{t('about_me_frontend')}</span>, {t('about_me_description_2')}
-            <br /> {t('about_me_description_3')} <span className='fullstack-span'>{t('about_me_fullstack')}</span>. {t('about_me_description_4')} <br />
-            {t('about_me_description_5')} <span className='python-span'>{t('about_me_python')}</span> {t('about_me_description_6')}.
+            {t('about_me_fullstack')} <span className='fullstack-span'>{t('about_me_description_3')}</span> 
+            <span className='python-span'>{t('about_me_python')}</span> {t('about_me_description_4')}
           </p>
         </div>
         <h2 className='interesses'>{t('interests_title')}</h2>

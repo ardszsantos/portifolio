@@ -29,13 +29,14 @@ const resources = {
       "terminal_error_message": "Command not found!",
 
       // Card Descriptions (About Me)
+      "about_me_description_1": "I am 18 years old, and I am completely passionate about code. Despite my current focus on ",
       "about_me_frontend": "front-end",
-      "about_me_fullstack": "full-stack developer",
+      "about_me_description_2": "my goal is to become a ",
+      "about_me_fullstack": "fullstack developer. ",
+      "about_me_description_3": "In addition to web development, I have experience with process automation using ",
       "about_me_python": "Python",
-      "about_me_description_1": "I'm 18 years old, completely passionate about coding. Despite my current focus on ",
-      "about_me_description_2": ", I aim to become a ",
-      "about_me_description_3": ". Besides web development, I have experience with process automation using ",
-      "about_me_description_4": " and Data Analysis."
+      "about_me_description_4": "and in Data Analysis."
+
     }
   },
   pt: {
@@ -64,13 +65,13 @@ const resources = {
       "terminal_error_message": "Comando não encontrado!",
 
       // Card Descriptions (About Me)
-      "about_me_frontend": "front-end",
-      "about_me_fullstack": "desenvolvedor fullstack",
-      "about_me_python": "Python",
       "about_me_description_1": "Tenho 18 anos, sou completamente apaixonado por código. Apesar do meu foco atual em ",
-      "about_me_description_2": ", tenho como objetivo me tornar um ",
-      "about_me_description_3": ". Além do desenvolvimento web, tenho experiência com automação de processos usando ",
-      "about_me_description_4": " e Análise de Dados."
+      "about_me_frontend": "front-end",
+      "about_me_description_2": "tenho como objetivo me tornar um ",
+      "about_me_fullstack": "desenvolvedor fullstack. ",
+      "about_me_description_3": "Além do desenvolvimento web, tenho experiência com automação de processos usando ",
+      "about_me_python": "Python",
+      "about_me_description_4": "e em Análise de Dados.",
     }
   }
 };

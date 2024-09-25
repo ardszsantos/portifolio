@@ -24,8 +24,10 @@ const NavBar = () => {
     cd: (section) => {
       const element = document.getElementById(section);
       if (element) {
-        const yOffset = -190;
-        const yPosition = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+        const elementTop = element.getBoundingClientRect().top + window.pageYOffset;
+        const viewportHeight = window.innerHeight;
+        const elementHeight = element.offsetHeight;
+        const yPosition = elementTop - (viewportHeight / 2) + (elementHeight / 2);
         window.scrollTo({ top: yPosition, behavior: 'smooth' });
         return `Navigating to ${section}`;
       } else {
@@ -40,7 +42,6 @@ const NavBar = () => {
       return t('terminal_help_message');
     }
   };
-
   return (
     <div className="main-nav">
       <div className='logo'>
