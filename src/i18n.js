@@ -35,7 +35,10 @@ const resources = {
       "about_me_fullstack": "fullstack developer. ",
       "about_me_description_3": "In addition to web development, I have experience with process automation using ",
       "about_me_python": "Python",
-      "about_me_description_4": "and in Data Analysis."
+      "about_me_description_4": "and in Data Analysis.",
+      
+      // Skills Section
+      "skills_title": "> skills_",
 
     }
   },
@@ -72,6 +75,10 @@ const resources = {
       "about_me_description_3": "Além do desenvolvimento web, tenho experiência com automação de processos usando ",
       "about_me_python": "Python",
       "about_me_description_4": "e em Análise de Dados.",
+
+      // Skills Section
+      "skills_title": "> habilidades_",
+      
     }
   }
 };

@@ -1,14 +1,16 @@
+import { t } from 'i18next';
 import '../styles/skills.css';
 import { FaDocker, FaAws, FaGit, FaNodeJs, FaReact, FaHtml5, FaCss3, FaJs, FaServer, FaCogs } from 'react-icons/fa';
 import { SiGithubactions, SiNextdotjs, SiTailwindcss, SiGraphql, SiPostgresql, SiMongodb, SiPrisma } from 'react-icons/si';
+import { useTranslation } from 'react-i18next';
 
 const SkillsSection = () => {
-  const gret = '>'
+  const { t } = useTranslation(); 
 
   return (
     <div id='habilidades' className='wrapper-three'>
       <div id='skills' className='container'>
-        <h1> {gret} habilidades_</h1>
+        <h1>  {t('skills_title')}</h1>
         <div className="skills-desc">
           <div className="stack1">
             <h2 className='rotate border-title'>Devops</h2>
