@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, {  useState } from 'react';
 import { ReactTerminal, TerminalContextProvider } from 'react-terminal';
 import { useTranslation } from 'react-i18next';
 import '../styles/nav-bar.css';
@@ -21,7 +21,7 @@ const NavBar = () => {
 
   // Define commands
   const commands = {
-    cd: (section) => {
+    cd: (section, secao) => {
       const element = document.getElementById(section);
       if (element) {
         const elementTop = element.getBoundingClientRect().top + window.pageYOffset;

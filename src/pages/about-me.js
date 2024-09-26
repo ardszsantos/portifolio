@@ -12,7 +12,7 @@ const AboutSection = () => {
 
   return (
     <div id='about' className='wrapper-two'>
-      <div className='about-container'>
+      <div id='sobre' className='about-container'>
         <h1>  {t('about_me_title')}</h1>
         <div className='about-p'>
           <p>{t('about_me_description_1')} <span className='front-span'>{t('about_me_frontend')}</span>, {t('about_me_description_2')}

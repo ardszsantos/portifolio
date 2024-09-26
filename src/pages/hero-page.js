@@ -10,7 +10,7 @@ const HeroSection = () => {
 
   return (
     <div id='hero' className="wrapper">
-      <div className='text-container'>
+      <div id='ola' className='text-container'>
         <h1>
           {t('greeting')} <br />
           <span className='great-span'>{greaterthan}</span>
