@@ -1,14 +1,16 @@
 import './App.css';
 import NavBar from './components/nav-bar';
 import HeroSection from './pages/hero-page';
-import AboutPage from './pages/about-me';
+import AboutSection from './pages/about-me';
+import SkillsSection from './pages/skills';
 
 function App() {
   return (
     <div className="App">
       <NavBar />
       <HeroSection />
-      <AboutPage />
+      <AboutSection />
+      <SkillsSection/>
     </div>
   );
 }

@@ -6,7 +6,7 @@ import web from '../assets/images/web-svgrepo-com.svg';
 import ai from '../assets/images/ai-solid-svgrepo-com.svg';
 import CardComponent from '../components/card';
 
-const AboutPage = () => {
+const AboutSection = () => {
   const { t } = useTranslation(); // Hook to access translations
 
 
@@ -43,4 +43,4 @@ const AboutPage = () => {
   );
 }
 
-export default AboutPage;
+export default AboutSection;

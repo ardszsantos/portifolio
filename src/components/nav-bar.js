@@ -1,5 +1,4 @@
-// src/components/NavBar.js
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { ReactTerminal, TerminalContextProvider } from 'react-terminal';
 import { useTranslation } from 'react-i18next';
 import '../styles/nav-bar.css';
@@ -10,6 +9,7 @@ const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [showTerminal, setShowTerminal] = useState(false);
   const { t } = useTranslation(); // Hook to access translations
+
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -42,6 +42,7 @@ const NavBar = () => {
       return t('terminal_help_message');
     }
   };
+
   return (
     <div className="main-nav">
       <div className='logo'>
@@ -66,6 +67,15 @@ const NavBar = () => {
               welcomeMessage={t('terminal_welcome_message')}
               prompt="ards.dev> "
               commands={commands}
+              themes={{
+                "custom-theme": {
+                  themeBGColor: "#1e1e1e",
+                  themeToolbarColor: "#1e1e1e",
+                  themeColor: "#ffffff",
+                  themePromptColor: "#00ff00"
+                }
+              }}
+              theme="custom-theme"
               errorMessage={t('terminal_error_message')}
             />
           </TerminalContextProvider>
