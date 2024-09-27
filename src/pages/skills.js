@@ -16,7 +16,6 @@ const SkillsSection = () => {
             <h2 className='rotate border-title'>Devops</h2>
             <div className='skill-list'>
               <p><FaDocker /> Docker</p>
-              <p><SiGithubactions /> CI/CD Pipelines (GitHub Actions, Jenkins)</p>
               <p><FaAws /> AWS</p>
               <p><FaServer /> Nginx</p>
               <p><FaGit /> Git</p>
@@ -28,7 +27,6 @@ const SkillsSection = () => {
             <h2 className='rotate border-title'>Frontend </h2>
             <div className='skill-list'>
               <p><FaReact /> React.js</p>
-              <p><SiNextdotjs /> Next.js</p>
               <p><SiTailwindcss /> Tailwind CSS</p>
               <p><FaHtml5 /> HTML5</p>
               <p><FaCss3 /> CSS3</p>
@@ -40,12 +38,11 @@ const SkillsSection = () => {
             <h2 className='rotate border-title'>Backend</h2>
             <div className='skill-list'>
               <p><FaNodeJs /> Node.js</p>
-              <p><FaCogs /> Express.js</p>
               <p><FaCogs /> REST APIs</p>
               <p><SiGraphql /> GraphQL</p>
               <p><SiPrisma /> Prisma</p>
-              <p><SiPostgresql /> SQL (PostgreSQL, MySQL)</p>
-              <p><SiMongodb /> NoSQL (MongoDB)</p>
+              <p><SiPostgresql /> SQL </p>
+              <p><SiMongodb /> MongoDB (NoSQL)</p>
             </div>
           </div>
         </div>

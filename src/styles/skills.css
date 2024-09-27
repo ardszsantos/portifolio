@@ -16,7 +16,7 @@
 .wrapper-three h1 {
   font-size: 55px;
   font-family: "Open Sans", sans-serif;
-  margin-bottom: 2em;
+  margin-bottom: 3.4em;
 
 }
 
@@ -30,24 +30,48 @@
 
 .rotate {
   transform: rotate(-90deg);
+  transition: transform 0.3s ease;
 }
+
 
 
 .stack1, .stack2, .stack3 {
   display: flex;
   align-items: center;
   width: 400px;
+  transition: transform 0.3s ease-in-out, flex-direction 0.3s ease;
+  font-size: 20px;
+}
+
+.stack1:hover,
+.stack2:hover,
+.stack3:hover {
+  transform: scale(1.2)  ;
+  flex-direction: column;
+}
+
+.stack1:hover .rotate,
+.stack2:hover .rotate,
+.stack3:hover .rotate {
+  transform: rotate(0deg);
+  position: absolute;
+  top: -60px;
 }
 
 
 .border-title {
-  height: 20px;
-  border-bottom: solid 1px white;
-  padding: 10px;
+  border-bottom: 1px solid white;
+  position: relative;
+  display: inline-block;
+  padding: 4px;
 }
 
 
+
+
+
 .skill-list {
+  margin-top: 30px;
   font-size: 20px;
   display: flex;
   flex-direction: column;
@@ -83,7 +107,7 @@
 
   .skills-desc {
     flex-direction: column;
-
+    gap: 50px;
     
   }
 
@@ -91,6 +115,18 @@
     transform: none;
   }
 
+  .stack1:hover,
+  .stack2:hover,
+  .stack3:hover {
+    transform: none;
+  }
+  .stack1:hover .rotate,
+  .stack2:hover .rotate,
+  .stack3:hover .rotate {
+    transform: none;
+    position: relative;
+    top: 0;
+  }
 
   .stack1,
   .stack2,
@@ -100,11 +136,11 @@
     align-items: center;
     justify-content: center;
     width: 400px;
+    transition: none;
   }
 
 
   .border-title {
-    height: 20px;
     border-bottom: solid 1px white;
     padding: 10px;
   }
