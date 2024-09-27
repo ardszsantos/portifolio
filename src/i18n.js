@@ -8,6 +8,7 @@ const resources = {
       // Hero section
       "greeting": "Hello, I'm",
       "developer_title": "Front End Developer passionate about creating innovative and efficient solutions.",
+      "cta": "CONTACT ME",
 
       // About Me section
       "about_me_title": "> about me_",
@@ -47,6 +48,7 @@ const resources = {
       // Hero section
       "greeting": "Olá, sou",
       "developer_title": "Desenvolvedor Front End apaixonado por criar soluções inovadoras e eficientes.",
+      "cta": "ENTRE EM CONTATO",
 
       // About Me section
       "about_me_title": "> sobre mim_",

@@ -17,6 +17,7 @@ const HeroSection = () => {
           <span className='ale-span'>Alexandre Rodrigues</span> 👋
         </h1>
         <p>{t('developer_title')}</p>
+        <button><a href='#contato'>{t('cta')}</a></button>
       </div>
 
       <div className='billboard'>

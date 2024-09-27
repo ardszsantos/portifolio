@@ -6,12 +6,12 @@ import web from '../assets/images/web-svgrepo-com.svg';
 import ai from '../assets/images/ai-solid-svgrepo-com.svg';
 import CardComponent from '../components/card';
 
-const AboutSection = () => {
+const AboutSection = (props) => {
   const { t } = useTranslation(); // Hook to access translations
 
 
   return (
-    <div id='about' className='wrapper-two'>
+    <div {...props} id='about' className='wrapper-two'>
       <div id='sobre' className='about-container'>
         <h1>  {t('about_me_title')}</h1>
         <div className='about-p'>

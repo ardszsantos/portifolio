@@ -23,6 +23,41 @@
   font-size: 71px;
 }
 
+
+.text-container button {
+  margin-top: 3.5em;
+  padding: 32px 54px;
+  border: 2px solid transparent;
+  border-image: linear-gradient(45deg, #00ff00, #ff33cc);
+  /* Gradient border */
+  border-image-slice: 1;
+  background-color: rgba(0, 0, 0, 0.6);
+  /* Slightly transparent background */
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: bold;
+  border-radius: 8px;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.text-container button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  /* Change background on hover */
+  color: #00ff00;
+  /* Change text color on hover */
+  transform: scale(1.05);
+  /* Slight scale-up on hover */
+}
+
+.text-container button a {
+  text-decoration: none;
+  color: white;
+  font-family: "JetBrains Mono", monospace;
+}
+
+
 .great-span {
   background: linear-gradient(to right,
       #1eff00 20%,
@@ -97,6 +132,12 @@
   .text-container p {
     font-size: 16px;
     text-align: center;
+  }
+
+  .text-container button {
+    margin-top: 3.5em;
+    padding: 12px 34px;
+    font-size: 16px;
   }
 
 }
