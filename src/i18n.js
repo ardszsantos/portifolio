@@ -22,10 +22,10 @@ const resources = {
       "ai_interest_description": "I use AI tools to optimize and accelerate my workflow in web development, leveraging these technologies to enhance productivity and efficiency in my projects.",
 
       // NavBar section
-      "nav_about": "#About",
-      "nav_skills": "#Skills",
-      "nav_projects": "#Projects",
-      "nav_contact": "#Contact",
+      "nav_about": "#about",
+      "nav_skills": "#skills",
+      "nav_projects": "#projects",
+      "nav_contact": "#contact",
       "terminal_welcome_message": "Welcome to the terminal! Type 'help' to see available commands.",
       "terminal_error_message": "Command not found!",
 
@@ -62,10 +62,10 @@ const resources = {
       "ai_interest_description": "Utilizo ferramentas de IA para otimizar e acelerar meu fluxo de trabalho no desenvolvimento web, aproveitando essas tecnologias para aprimorar a produtividade e a eficiência em meus projetos.",
 
       // NavBar section
-      "nav_about": "#Sobre",
-      "nav_skills": "#Habilidades",
-      "nav_projects": "#Projetos",
-      "nav_contact": "#Contato",
+      "nav_about": "#sobre",
+      "nav_skills": "#habilidades",
+      "nav_projects": "#projetos",
+      "nav_contact": "#contato",
       "terminal_welcome_message": "Bem-vindo ao terminal! Digite 'help' para ver os comandos disponíveis.",
       "terminal_error_message": "Comando não encontrado!",
 
