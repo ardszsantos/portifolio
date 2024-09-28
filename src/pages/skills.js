@@ -13,7 +13,7 @@ const SkillsSection = (props) => {
         <h1>  {t('skills_title')}</h1>
         <div className="skills-desc">
           <div className="stack1">
-            <h2 className='rotate border-title'>Devops</h2>
+            <h2 className='rotate border-title devops'>Devops</h2>
             <div className='skill-list'>
               <p><FaDocker /> Docker</p>
               <p><FaAws /> AWS</p>
@@ -24,7 +24,7 @@ const SkillsSection = (props) => {
             </div>
           </div>
           <div className="stack2">
-            <h2 className='rotate border-title'>Frontend </h2>
+            <h2 className='rotate border-title front'>Frontend </h2>
             <div className='skill-list'>
               <p><FaReact /> React.js</p>
               <p><SiTailwindcss /> Tailwind CSS</p>
@@ -35,7 +35,7 @@ const SkillsSection = (props) => {
             </div>
           </div>
           <div className="stack3">
-            <h2 className='rotate border-title'>Backend</h2>
+            <h2 className='rotate border-title  back'>Backend</h2>
             <div className='skill-list'>
               <p><FaNodeJs /> Node.js</p>
               <p><FaCogs /> REST APIs</p>

@@ -7,6 +7,7 @@ import SkillsSection from './pages/skills';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import ProjectsSection from './pages/projects';
 
 
 function App() {
@@ -19,7 +20,8 @@ function App() {
       <NavBar />
       <HeroSection />
       <AboutSection data-aos="fade-right"/>
-      <SkillsSection data-aos="fade-left"/>
+      <SkillsSection data-aos="fade-left"/> 
+      <ProjectsSection/>
     </div>
   );
 }

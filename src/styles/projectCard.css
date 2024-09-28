@@ -1,0 +1,12 @@
+.projectCardContainer {
+  background-color: rgba(0, 0, 0, 0.333);
+  width: 80%;
+  height: 10em;
+  border-radius: 12px;
+  padding: 12px 12px;
+}
+
+
+.projectCardContainer img {
+  width: 64px;
+}
