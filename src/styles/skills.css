@@ -159,3 +159,17 @@
     align-items: center;
   }
 }
+
+
+@media (max-width: 350px) {
+  .container h1 {
+    font-size: 35px;
+  }
+}
+
+
+@media (min-width: 800px) and (max-width: 1600px) {
+  .skills-desc {
+    gap: 25px;
+  }
+}

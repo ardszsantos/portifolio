@@ -63,11 +63,15 @@
   -webkit-text-fill-color: transparent;
 }
 
+
+
+
+
 @media (max-width: 800px) {
 
   .wrapper-two {
     display: flex;
-    margin-top: 20em;
+    margin-top: 10em;
     height: 100%;
     color: white;
     justify-content: center;
@@ -88,4 +92,22 @@
     flex-direction: column;
     gap: 20px;
   }
+}
+
+@media (max-width: 350px) {
+  .about-container h1 {
+    font-size: 34px;
+  }
+
+  .about-p {
+    width: 280px;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .about-cards {
+    padding: 20px 20px;
+    font-size: 20px;
+  }
+
 }

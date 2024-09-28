@@ -143,6 +143,8 @@
 }
 
 
-@media (max-width: 1069px) {
-
+@media (max-width: 350px) {
+  .text-container h1 {
+    font-size: 51px;
+  }
 }
