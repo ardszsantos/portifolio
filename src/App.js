@@ -8,6 +8,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import ProjectsSection from './pages/projects';
+import ContactSection from './pages/contact';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <AboutSection data-aos="fade-right"/>
       <SkillsSection data-aos="fade-left"/> 
       <ProjectsSection data-aos="fade-up"/>
+      <ContactSection />
     </div>
   );
 }
