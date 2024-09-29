@@ -4,13 +4,9 @@ import robot from '../assets/images/robot.jpg'
 import ProjectCardReverse from '../components/ReverseProjectCard';
 
 
-const ProjectsSection = ({
-  imgUrl,
-  title,
-  description
-}) => {
+const ProjectsSection = (props) => {
   return (  
-    <div className="projects-wrapper">
+    <div {...props} className="projects-wrapper">
       <h1>Projects</h1>
       <ProjectCard imgUrl={robot} title={'FullStack Ecommerce store'} description={`Fullstack app made with NextJS, tailwindCSS and neonDb
         this project consists in 2 full-stack apps, an admin dashboard and the store itself.`}/>
