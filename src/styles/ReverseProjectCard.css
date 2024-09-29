@@ -1,27 +1,28 @@
-.projectCardContainer {
-  background-color: rgba(0, 0, 0, 0.333);
+.ReverseProjectCardContainer {
+  background-color: rgba(0, 0, 0, 0.579);
   width: 70%;
   height: 10em;
   border-radius: 12px;
   padding: 12px 12px;
   display: flex;
+  flex-direction: row-reverse;
   gap: 20px;
   color: white;
 }
 
 
-.projectCardContainer img {
+.ReverseProjectCardContainer img {
   width: 164px;
   height: 164px;
 }
 
-.CardTextWrapper {
+.ReverseCardWrapper {
   display: flex;
   flex-direction: column;
-  text-align: left;
+  text-align: right;
 }
 
 
-.CardTextWrapper p {
-  margin: 0;
+.ReverseCardWrapper p {
+
 }
