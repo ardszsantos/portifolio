@@ -10,7 +10,7 @@ import { SiTailwindcss, SiNextdotjs, SiLinux, SiDjango, SiFlask, SiMysql, SiMong
 
 
 const AboutSection = (props) => {
-  const { t } = useTranslation(); // Hook to access translations
+  const { t } = useTranslation();
 
 
   return (

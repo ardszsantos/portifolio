@@ -1,5 +1,4 @@
 import '../styles/contact.css';
-import { FaGithub, FaLinkedin, FaEnvelope, FaDiscord } from 'react-icons/fa';
 
 const ContactSection = () => {
   return (
