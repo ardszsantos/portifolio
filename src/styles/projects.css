@@ -8,3 +8,9 @@
   color: white;
   justify-content: center;
 }
+
+
+.projects-wrapper h1 {
+  font-size: 55px;
+  font-family: "Open Sans", sans-serif;
+}

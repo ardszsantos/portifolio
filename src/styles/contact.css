@@ -1,123 +1,52 @@
 .contact-section {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
-  padding: 2rem;
-  gap: 3rem;
-  max-width: 1100px;
-  margin: 0 auto;
+  padding: 4rem 1rem;
+
 }
 
 .contact-wrapper {
-  display: flex;
-  flex-direction: row;
+  max-width: 800px;
   width: 100%;
+  text-align: center;
 }
 
-.form-section {
-  flex: 2;
-}
-
-.social-section {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  padding-left: 2rem;
-}
-
-h2,
-h3 {
-  color: #fff;
-  font-size: 1.8rem;
+.contact-info h2 {
+  color: #ffffff;
+  font-size: 2rem;
   margin-bottom: 1.5rem;
 }
 
-.contact-form {
+.contact-info p {
+  color: #bfbfbf;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.contact-list {
+  list-style: none;
   display: flex;
-  flex-direction: column;
-}
-
-.form-group {
-  margin-bottom: 1rem;
-}
-
-input,
-textarea {
-  width: 100%;
-  padding: 0.75rem;
-  border-radius: 8px;
-  border: 1px solid #444;
-  background-color: transparent;
-  color: #fff;
-  font-size: 1rem;
-  outline: none;
-}
-
-input::placeholder,
-textarea::placeholder {
-  color: #aaa;
-}
-
-input:focus,
-textarea:focus {
-  border-color: #4a90e2;
-}
-
-textarea {
-  resize: none;
-  height: 150px;
-}
-
-.submit-button {
-  padding: 0.75rem;
-  background-color: #4a90e2;
-  color: white;
-  border: none;
-  border-radius: 8px;
-  font-size: 1rem;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.submit-button:hover {
-  background-color: #357abf;
-}
-
-.social-section h3 {
-  color: #fff;
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
-}
-
-.social-links {
-  list-style-type: none;
+  gap: 23px;
   padding: 0;
 }
 
-.social-links li {
-  margin-bottom: 1rem;
+.contact-list li {
+  margin-bottom: 1.5rem;
 }
 
-.social-links a {
+.contact-list a,
+.contact-list span {
   color: #4a90e2;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   text-decoration: none;
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 0.5rem;
+  transition: color 0.3s ease;
 }
 
-.social-links a:hover {
+.contact-list a:hover,
+.contact-list span:hover {
   color: #357abf;
-}
-
-.input-error {
-  border-color: #ff6b6b;
-}
-
-.error {
-  color: #ff6b6b;
-  font-size: 0.9rem;
-  margin-top: 0.25rem;
 }

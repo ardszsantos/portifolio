@@ -7,13 +7,20 @@
   display: flex;
   gap: 20px;
   color: white;
+  transition: ease-in-out 0.15s;
+}
+
+.projectCardContainer:hover {
+  transform: scale(1.1);
 }
 
 
 .projectCardContainer img {
   width: 164px;
   height: 164px;
+  border-radius: 12px;
 }
+
 
 .CardTextWrapper {
   display: flex;
