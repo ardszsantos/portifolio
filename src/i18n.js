@@ -60,7 +60,6 @@ const resources = {
 
       // NavBar section
       "nav_about": "#sobre",
-
       "nav_projects": "#projetos",
       "nav_contact": "#contato",
       "terminal_welcome_message": "Bem-vindo ao terminal! Digite 'help' para ver os comandos disponíveis.",
