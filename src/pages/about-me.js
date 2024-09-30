@@ -3,11 +3,10 @@ import { useTranslation } from 'react-i18next';
 import '../styles/about-me.css';
 import kubuntu from '../assets/images/kubuntu-svgrepo-com.svg';
 import web from '../assets/images/web-svgrepo-com.svg';
-import ai from '../assets/images/ai-solid-svgrepo-com.svg';
 import CardComponent from '../components/card';
 
 import { FaReact, FaPython, FaGitAlt, FaNodeJs, FaJsSquare, FaHtml5, FaCss3Alt, FaDocker, FaVuejs, FaPhp, FaSass, FaFigma } from 'react-icons/fa';
-import { SiTailwindcss, SiNextdotjs, SiLinux, SiDjango, SiFlask, SiMysql, SiMongodb, SiVercel } from 'react-icons/si';
+import { SiTailwindcss, SiNextdotjs, SiLinux, SiDjango, SiFlask, SiMysql, SiMongodb, SiTypescript } from 'react-icons/si';
 
 
 const AboutSection = (props) => {
@@ -124,9 +123,10 @@ const AboutSection = (props) => {
             <p>MongoDB</p>
           </div>
           <div className='icon'>
-            <SiVercel size={50} color='#000000' />
-            <p>Vercel</p>
+            <SiTypescript size={50} color='#3178C6' />
+            <p>TypeScript</p>
           </div>
+
         </div>
       </div>
     </div>

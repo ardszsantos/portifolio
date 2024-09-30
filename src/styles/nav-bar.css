@@ -9,10 +9,13 @@
   padding: 24px 200px;
   box-shadow: 2px 3px 8px black;
   font-family: "JetBrains Mono", monospace;
+  position: -webkit-sticky; /* For Safari support */
   position: sticky;
   top: 0;
   z-index: 1000;
+  background-color: #020214; /* Ensure a background color is set */
 }
+
 
 .main-nav::before {
   content: '';

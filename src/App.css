@@ -8,6 +8,11 @@ body {
   /* Use percentage height for compatibility */
   margin: 0;
   padding: 0;
+
+}
+
+body {
+  overflow-x: hidden;
 }
 
 .App {
@@ -18,5 +23,5 @@ body {
   height: auto;
   min-height: 100vh;
   min-width: 100vw;
-  overflow: hidden;
+
 }
