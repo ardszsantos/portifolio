@@ -5,8 +5,14 @@ const ProjectCard = ({ imgUrl, title, description }) => {
     <div className='projectCardContainer'>
       <img src={imgUrl} alt={title || 'Project Image'} />
       <div class="CardTextWrapper">
-        <h2>{title}</h2>
+        <div className='upper-card'> 
+          <h2>{title}</h2>
+          <p>20xx - 20xx</p>
+        </div>
         <p>{description}</p>
+        <div className='project-info'>
+
+        </div>
       </div>
     </div>
   );

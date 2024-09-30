@@ -23,7 +23,6 @@ const resources = {
 
       // NavBar section
       "nav_about": "#about",
-      "nav_skills": "#skills",
       "nav_projects": "#projects",
       "nav_contact": "#contact",
       "terminal_welcome_message": "Welcome to the terminal! Type 'help' to see available commands.",
@@ -38,8 +37,6 @@ const resources = {
       "about_me_python": "Python",
       "about_me_description_4": "and in Data Analysis.",
       
-      // Skills Section
-      "skills_title": "> skills_",
 
     }
   },
@@ -63,7 +60,7 @@ const resources = {
 
       // NavBar section
       "nav_about": "#sobre",
-      "nav_skills": "#habilidades",
+
       "nav_projects": "#projetos",
       "nav_contact": "#contato",
       "terminal_welcome_message": "Bem-vindo ao terminal! Digite 'help' para ver os comandos disponíveis.",
@@ -78,9 +75,7 @@ const resources = {
       "about_me_python": "Python",
       "about_me_description_4": "e em Análise de Dados.",
 
-      // Skills Section
-      "skills_title": "> habilidades_",
-      
+
     }
   }
 };

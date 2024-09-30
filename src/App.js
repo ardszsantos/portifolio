@@ -2,7 +2,6 @@ import './App.css';
 import NavBar from './components/nav-bar';
 import HeroSection from './pages/hero-page';
 import AboutSection from './pages/about-me';
-import SkillsSection from './pages/skills';
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -21,7 +20,6 @@ function App() {
       <NavBar />
       <HeroSection />
       <AboutSection data-aos="fade-right"/>
-      <SkillsSection data-aos="fade-left"/> 
       <ProjectsSection data-aos="fade-up"/>
       <ContactSection />
     </div>

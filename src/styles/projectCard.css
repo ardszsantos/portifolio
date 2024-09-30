@@ -14,6 +14,14 @@
   transform: scale(1.1);
 }
 
+.upper-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 100;
+}
+
+
 
 .projectCardContainer img {
   width: 164px;
@@ -31,4 +39,8 @@
 
 .CardTextWrapper p {
   margin: 0;
+}
+
+.project-info {
+  
 }
