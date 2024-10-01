@@ -101,7 +101,21 @@
 
 .icon:hover {
   transform: scale(1.1);
+  
 }
+
+@media (min-width: 801px) and (max-width: 1370px ) {
+  .wrapper-two {
+    padding: 25px 50px;
+    flex-direction: column;
+    margin-top: 10em;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+
 
 @media (max-width: 800px) {
 
@@ -132,8 +146,13 @@
 }
 
 @media (max-width: 350px) {
+  .wrapper-two {
+    padding: 20px 50px;
+  }
+  
   .about-container h1 {
     font-size: 34px;
+    text-align: center;
   }
 
   .about-p {

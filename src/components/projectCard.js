@@ -4,7 +4,7 @@ const ProjectCard = ({ imgUrl, title, description }) => {
   return (  
     <div className='projectCardContainer'>
       <img src={imgUrl} alt={title || 'Project Image'} />
-      <div class="CardTextWrapper">
+      <div className="CardTextWrapper">
         <div className='upper-card'> 
           <h2>{title}</h2>
           <p>20xx - 20xx</p>
