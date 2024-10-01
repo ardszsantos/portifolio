@@ -5,7 +5,7 @@
   border: 1px solid gray;
   border-radius: 12px;
   width: 400px;
-  height: 200px;
+  height: 185px;
   align-items: center;
   transition: ease-in-out 0.30s;
 }
@@ -30,4 +30,11 @@
 
 .icon-block:hover {
   transform: scale(1.2);
+}
+
+
+@media (max-width: 1200px) {
+  .tech-container {
+    display: none;
+  }
 }

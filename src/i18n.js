@@ -41,9 +41,9 @@ const resources = {
       // Projects Section
       "projects_title": "> projects_",
       "project1_title": "camisasTop - Store",
-      "project1_description": "Developed with Next.js and TypeScript, featuring Clerk Auth for authentication, neonDB and Prisma for database management, and Stripe for payments. Deployed on Vercel with a focus on performance and responsive design.",
+      "project1_description": "Full-Stack E-Commerce Store, made to sell any product.",
       "project2_title": "camisasTop - Admin",
-      "project2_description": "Admin platform built with Next.js and TypeScript to manage the ecommerce-store. Includes Clerk Auth for access control, Prisma for database communication, and is deployed on Vercel.",
+      "project2_description": "E-Commerce Admin Dashboard. Made to add and manage products.",
     }
   },
   pt: {
@@ -84,9 +84,9 @@ const resources = {
       // Projetos
       "projects_title": "> projetos_",
       "project1_title": "camisasTop - Loja",
-      "project1_description": "Desenvolvido com Next.js e TypeScript, com autenticação via Clerk Auth, neonDB e Prisma para gerenciamento de banco de dados, e Stripe para pagamentos. Deploy feito na Vercel com foco em desempenho e design responsivo.",
+      "project1_description": "Loja online Full-Stack, feita para a veda de qualquer produto.",
       "project2_title": "camisasTop - Admin",
-      "project2_description": "Plataforma de administração construída com Next.js e TypeScript para gerenciar o ecommerce-store. Inclui Clerk Auth para controle de acesso, Prisma para comunicação com o banco de dados, e deploy feito na Vercel.",
+      "project2_description": "Painel de adminstração da loja. Feito para adicionar e gerenciar produtos.",
     }
   }
 };
