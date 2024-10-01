@@ -3,10 +3,10 @@
   padding: 64px 112px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
   gap: 2em;
   color: white;
-  
+  margin-left: 12em;
   justify-content: center;
 }
 
@@ -20,7 +20,7 @@
 .project-group {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
   gap: 5em;
 }
 

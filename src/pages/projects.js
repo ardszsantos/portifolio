@@ -1,24 +1,42 @@
+import { useTranslation } from 'react-i18next';
 import ProjectCard from '../components/projectCard';
 import '../styles/projects.css'
 import camisasTop from '../assets/images/ecommerce.png'
 import camisasTopA from '../assets/images/ecommerce2.png'
 import ProjectDescription from '../components/projectDesc';
 
+import { techIcons1, techIcons2, iconColors1, iconColors2 } from '../components/techStack';
 
 const ProjectsSection = (props) => {
-  return (  
+  const { t } = useTranslation();
+
+  return (
     <div {...props} id='projects' className="projects-wrapper">
-      <h1 id='projetos'> projects_</h1>
+      <h1 id='projetos'>{t('projects_title')}</h1>
       <div className='project-group'>
-        <ProjectCard imgUrl={camisasTop} title={'camisasTop - Store'} description={`Projeto desenvolvido com Next.js e TypeScript, com autenticação via Clerk Auth, banco de dados gerido por neonDB e Prisma, e integração de pagamentos usando Stripe. O deploy é feito na Vercel, e as principais funcionalidades incluem a exibição de produtos e gestão de pedidos, com foco em desempenho e design responsivo.`}/>
-        <ProjectDescription/>
+        <ProjectCard
+          imgUrl={camisasTop}
+          title={t('project1_title')}
+          description={t('project1_description')}
+        />
+        <ProjectDescription
+          icons={techIcons1}
+          iconColors={iconColors1}
+        />
       </div>
       <div className='project-group'>
-        <ProjectCard imgUrl={camisasTopA} title={'camisasTop - Admin'} description={`Plataforma de administração construída com Next.js e TypeScript para gerenciar o ecommerce-store. Usa Clerk Auth para controle de acesso, Prisma para comunicação com neonDB, e Vercel para deploy, oferecendo funcionalidades de gerenciamento de produtos e categorias.`} />
-        <ProjectDescription />
+        <ProjectCard
+          imgUrl={camisasTopA}
+          title={t('project2_title')}
+          description={t('project2_description')}
+        />
+        <ProjectDescription
+          icons={techIcons2}
+          iconColors={iconColors2}
+        />
       </div>
     </div>
   );
 }
 
-export default ProjectsSection
+export default ProjectsSection;
