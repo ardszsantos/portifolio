@@ -1,0 +1,14 @@
+.tech-container {  
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.333);
+  border: 1px solid gray;
+  border-radius: 12px;
+  width: 200px;
+  height: 200px;
+  align-items: center;
+}
+
+.tech-container h1 {
+  font-size: 20px;
+}
