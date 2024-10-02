@@ -70,7 +70,7 @@ const resources = {
       "nav_contact": "#contato",
       "terminal_welcome_message": "Digite ''help'' ",
       "terminal_error_message": "Comando não encontrado!",
-      "terminal_help_message": "Comandos disponíveis: cd (home, sobre, projetos, contato) | echo (texto) ",
+      "terminal_help_message": "Comandos disponíveis: cd (ola, sobre, projetos, contato) | echo (texto) ",
 
       // Card Descriptions (About Me)
       "about_me_description_1": "Tenho 18 anos, sou completamente apaixonado por código. Apesar do meu foco atual em ",

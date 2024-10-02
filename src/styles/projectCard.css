@@ -43,6 +43,20 @@
   margin: 0;
 }
 
+.project-info {
+  display: flex;
+  align-items: ;
+  gap: 15px;
+}
+
+.project-info a{
+  text-decoration: none;
+  color: gray;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
 
 
 

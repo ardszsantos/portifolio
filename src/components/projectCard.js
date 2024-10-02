@@ -1,6 +1,7 @@
 import '../styles/projectCard.css'
+import { FaGithub } from "react-icons/fa";
 
-const ProjectCard = ({ imgUrl, title, description }) => {
+const ProjectCard = ({ imgUrl, title, description, iconComponent, gitUrl, pageUrl }) => {
   return (  
     <div className='projectCardContainer'>
       <img src={imgUrl} alt={title || 'Project Image'} />
@@ -11,7 +12,8 @@ const ProjectCard = ({ imgUrl, title, description }) => {
         </div>
         <p>{description}</p>
         <div className='project-info'>
-
+          <a href={pageUrl} target='_blank'>Demo {iconComponent}</a>
+          <a href={gitUrl} target='_blank'>Repo <FaGithub /></a>
         </div>
       </div>
     </div>
