@@ -1,6 +1,5 @@
-// techStack.js
 import { FaReact, FaStripe } from 'react-icons/fa';
-import { SiNextdotjs, SiTailwindcss, SiPrisma, SiMysql, SiCloudinary, SiTypescript, SiZod, SiClerk,  } from 'react-icons/si';
+import { SiNextdotjs, SiTailwindcss, SiPrisma, SiMysql, SiCloudinary, SiTypescript, SiZod, SiClerk, SiOpencv, SiPython, SiNumpy, SiWindows } from 'react-icons/si';
 
 export const techIcons1 = [
   FaReact,        // React
@@ -50,4 +49,20 @@ export const iconColors2 = [
   '#008CDD',    // Stripe
   '#3A3A3A',    // Clerk
   '#E07B00'     // Zustand
+];
+
+// Tech Stack for CV-Macro
+export const techIcons3 = [
+  SiOpencv,   // OpenCV
+  SiPython,   // Python
+  SiNumpy,    // NumPy
+  SiWindows,  // Windows GUI (win32gui)
+];
+
+export const iconColors3 = [
+  '#5C3EE8',  // OpenCV
+  '#FFD43B',  // Python
+  '#013243',  // NumPy
+  '#00BCF2',  // Windows
+  '#FFFAF0'   // Tkinter
 ];

@@ -5,8 +5,8 @@ import camisasTop from '../assets/images/ecommerce.png'
 import camisasTopA from '../assets/images/ecommerce2.png'
 import ProjectDescription from '../components/projectDesc';
 import { MdOutlineWebAssetOff, MdOutlineWebAsset } from "react-icons/md";
-
-import { techIcons1, techIcons2, iconColors1, iconColors2 } from '../components/techStack';
+import { techIcons1, techIcons2, techIcons3, iconColors1, iconColors2, iconColors3 } from '../components/techStack';
+import opencvImg from '../assets/images/OPENCV.png'
 
 const ProjectsSection = (props) => {
   const { t } = useTranslation();
@@ -38,6 +38,13 @@ const ProjectsSection = (props) => {
               iconComponent={noWebIcon}
               gitUrl={project2GitUrl}
             />
+            <ProjectCard
+              imgUrl={opencvImg}
+              title={t('project3_title')}
+              description={t('project3_description')}
+              iconComponent={noWebIcon}
+              gitUrl={project2GitUrl}
+            />
           </div>
           <div class="tech-stack-container">
             <ProjectDescription
@@ -48,6 +55,10 @@ const ProjectsSection = (props) => {
             <ProjectDescription
               icons={techIcons2}
               iconColors={iconColors2}
+            />
+            <ProjectDescription
+              icons={techIcons3}
+              iconColors={iconColors3}
             />
           </div>
         </div>

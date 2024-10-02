@@ -44,6 +44,9 @@ const resources = {
       "project1_description": "Full-Stack E-Commerce Store, made to sell any product.",
       "project2_title": "camisasTop - Admin",
       "project2_description": "E-Commerce Admin Dashboard. Made to add and manage products.",
+      "project3_title": "OPEN-CV Automation",
+      "project3_description": "Automation using computer vision. Recognizes images and executes actions."
+
     }
   },
   pt: {
@@ -87,6 +90,9 @@ const resources = {
       "project1_description": "Loja online Full-Stack, feita para a veda de qualquer produto.",
       "project2_title": "camisasTop - Admin",
       "project2_description": "Painel de adminstração da loja. Feito para adicionar e gerenciar produtos.",
+      "project3_title": "Automação com OPEN-CV",
+      "project3_description": "Automação utilizando visão computacional. Reconhece imagens e executa ações."
+
     }
   }
 };
