@@ -19,7 +19,7 @@ body {
 
 /* Ensure no horizontal overflow from AOS animations */
 [data-aos] {
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 /* Ensure sections don’t extend beyond the viewport */
