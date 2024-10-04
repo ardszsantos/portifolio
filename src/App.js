@@ -21,8 +21,8 @@ function App() {
       <NavBar />
       <HeroSection />
       <AboutSection data-aos="fade-right"/>
-      <ProjectsSection data-aos="fade-up"/>
-      <ContactSection data-aos="fade-left" />
+      <ProjectsSection data-aos="fade-right"/>
+      <ContactSection data-aos="fade-right" />
       <Footer/>
     </div>
   );

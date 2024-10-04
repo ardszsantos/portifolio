@@ -2,7 +2,6 @@
   position: relative;
   display: inline-block;
   margin: 0 5px;
-  overflow: hidden;
 }
 
 .switch>span {

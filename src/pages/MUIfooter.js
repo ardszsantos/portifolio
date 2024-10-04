@@ -13,7 +13,6 @@ const Footer = () => {
         width: '100%',
         position: 'relative',
         textAlign: 'center',
-        overflow: 'hidden'
       }}
     >
       <Container>
