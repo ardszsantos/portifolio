@@ -6,7 +6,7 @@ const ContactSection = (props) => {
   const { t } = useTranslation();
 
   return (
-    <Box {...props} id="contact" sx={{ padding: '40px', maxWidth: '1000px', margin: '15em auto 10em', }}>
+    <Box {...props} id="contact" sx={{ padding: '40px', maxWidth: '1000px', margin: '15em auto 10em', overflow: 'hidden' }}>
       <Grid container spacing={4} id="contato" justifyContent="center">
         <Grid item xs={12} md={6} display="flex" flexDirection="column" alignItems="center">
           <Typography variant="h4" gutterBottom color="white">
