@@ -21,7 +21,7 @@ function App() {
       <HeroSection />
       <AboutSection data-aos="fade-right"/>
       <ProjectsSection data-aos="fade-up"/>
-      <ContactSection />
+      <ContactSection data-aos="fade-left" />
     </div>
   );
 }

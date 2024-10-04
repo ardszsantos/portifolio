@@ -1,33 +1,35 @@
-import { BsDiscord, BsGithub, BsWhatsapp } from 'react-icons/bs';
+import { FaWhatsapp, FaEnvelope, FaInstagram, FaDiscord } from 'react-icons/fa';
 import '../styles/contact.css';
-import { GiMailbox } from 'react-icons/gi';
-import { ImInstagram } from 'react-icons/im';
 
-const ContactSection = () => {
+const ContactSection = (props) => {
   return (
-    <div className="contact-section">
-      <div class="contact-information">
-        <h2>> Contact_</h2>
-        <p className='muted'>get in touch with me</p>
-        <div className='contact-ways'>
-          <div class="way">
-            <BsWhatsapp />
-            <p>+55 11 99870-1122</p> 
-          </div>
-          <div class="way">
-            <GiMailbox />
-            <p>alexandrerdrsantos01@gmail.com</p>
-          </div>
-        </div>  
-        <div class="socials">
-          <div class="social-icon"> <ImInstagram/> </div>
-          <div class="social-icon"> <BsDiscord/> </div>
-          <div class="social-icon"> <BsGithub/> </div>
-        </div>
+    <div {...props} id='contact' className="contact-section">
+      <div id='contato' className="contact-info">
+      <div className="contact-title">Get in Touch</div>
+        <a href="https://wa.me/5511998701122" target="_blank" rel="noopener noreferrer">
+          <FaWhatsapp size={24} />
+          <span>11 99870-1122</span>
+        </a>
+        <a href="mailto:alexandrerdrsantos01@gmail.com">
+          <FaEnvelope size={24} />
+          <span>alexandrerdrsantos01@gmail.com</span>
+        </a>
+        <a href="#your-instagram-link">
+          <FaInstagram size={24} />
+          <span>Instagram (add later)</span>
+        </a>
+        <a href="#your-discord-link">
+          <FaDiscord size={24} />
+          <span>Discord (add later)</span>
+        </a>
       </div>
-      <div class="contact-field">
 
-      </div>
+      <form className="contact-form">
+        <input type="email" name="email" placeholder="Your Email" required />
+        <input type="text" name="subject" placeholder="Subject" required />
+        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
     </div>
   );
 };
