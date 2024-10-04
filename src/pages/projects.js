@@ -21,8 +21,8 @@ const ProjectsSection = (props) => {
     <div {...props} id='projects' className="projects-wrapper">
         <div className='projects-sub-wrapper'>
         <h1 id='projetos'>{t('projects_title')}</h1> 
-        <div class="projects-group">
-          <div class="projects-container">
+        <div className="projects-group">
+          <div className="projects-container">
             <ProjectCard
               imgUrl={camisasTop}
               title={t('project1_title')}
@@ -46,7 +46,7 @@ const ProjectsSection = (props) => {
               gitUrl={project2GitUrl}
             />
           </div>
-          <div class="tech-stack-container">
+          <div className="tech-stack-container">
             <ProjectDescription
               icons={techIcons1}
               iconColors={iconColors1}

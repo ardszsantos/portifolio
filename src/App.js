@@ -7,7 +7,8 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import ProjectsSection from './pages/projects';
-import ContactSection from './pages/contact';
+import ContactSection from './pages/MUIcontact';
+import Footer from './pages/MUIfooter';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <AboutSection data-aos="fade-right"/>
       <ProjectsSection data-aos="fade-up"/>
       <ContactSection data-aos="fade-left" />
+      <Footer/>
     </div>
   );
 }
