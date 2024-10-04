@@ -45,7 +45,25 @@ const resources = {
       "project2_title": "camisasTop - Admin",
       "project2_description": "E-Commerce Admin Dashboard. Made to add and manage products.",
       "project3_title": "OPEN-CV Automation",
-      "project3_description": "Automation using computer vision. Recognizes images and executes actions."
+      "project3_description": "Automation using computer vision. Recognizes images and executes actions.",
+
+
+      // Footer Section (new translations)
+      "footer_all_rights": "All rights reserved.",
+      "footer_name": "Alexandre Rodrigues",
+
+      // Contact Section (new translations)
+      "contact_title": "Get in Touch",
+      "contact_whatsapp": "11 99870-1122",
+      "contact_email": "alexandrerdrsantos01@gmail.com",
+      "contact_instagram": "Instagram (add later)",
+      "contact_discord": "Discord (add later)",
+      "contact_form_email": "Your Email",
+      "contact_form_subject": "Subject",
+      "contact_form_message": "Your Message",
+      "contact_form_button": "Send Message"
+
+      
 
     }
   },
@@ -91,7 +109,22 @@ const resources = {
       "project2_title": "camisasTop - Admin",
       "project2_description": "Painel de adminstração da loja. Feito para adicionar e gerenciar produtos.",
       "project3_title": "Automação com OPEN-CV",
-      "project3_description": "Automação utilizando visão computacional. Reconhece imagens e executa ações."
+      "project3_description": "Automação utilizando visão computacional. Reconhece imagens e executa ações.",
+
+      // Footer Section (new translations)
+      "footer_all_rights": "Todos os direitos reservados.",
+      "footer_name": "Alexandre Rodrigues",
+
+      // Contact Section (new translations)
+      "contact_title": "Entre em Contato",
+      "contact_whatsapp": "11 99870-1122",
+      "contact_email": "alexandrerdrsantos01@gmail.com",
+      "contact_instagram": "Instagram (adicionar depois)",
+      "contact_discord": "Discord (adicionar depois)",
+      "contact_form_email": "Seu Email",
+      "contact_form_subject": "Assunto",
+      "contact_form_message": "Sua Mensagem",
+      "contact_form_button": "Enviar Mensagem"
 
     }
   }

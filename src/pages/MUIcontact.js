@@ -1,13 +1,16 @@
 import { FaWhatsapp, FaEnvelope, FaInstagram, FaDiscord } from 'react-icons/fa';
 import { Box, TextField, Button, Typography, Grid, Link } from '@mui/material';
+import { useTranslation } from 'react-i18next';
 
 const ContactSection = (props) => {
+  const { t } = useTranslation();
+
   return (
     <Box {...props} id="contact" sx={{ padding: '40px', maxWidth: '1000px', margin: '15em auto 10em', }}>
       <Grid container spacing={4} id="contato" justifyContent="center">
         <Grid item xs={12} md={6} display="flex" flexDirection="column" alignItems="center">
           <Typography variant="h4" gutterBottom color="white">
-            Get in Touch
+            {t('contact_title')}
           </Typography>
           <Link
             href="https://wa.me/5511998701122"
@@ -19,15 +22,13 @@ const ContactSection = (props) => {
               gap: 1,
               color: 'white',
               mb: 2,
-              textDecoration: 'none', // No underline
+              textDecoration: 'none',
               transition: 'color 0.3s ease',
-              '&:hover': {
-                color: '#ffcc00', // Yellow on hover
-              },
+              '&:hover': { color: '#ffcc00' },
             }}
           >
             <FaWhatsapp size={24} />
-            <Typography>11 99870-1122</Typography>
+            <Typography>{t('contact_whatsapp')}</Typography>
           </Link>
           <Link
             href="mailto:alexandrerdrsantos01@gmail.com"
@@ -37,15 +38,13 @@ const ContactSection = (props) => {
               gap: 1,
               color: 'white',
               mb: 2,
-              textDecoration: 'none', // No underline
+              textDecoration: 'none',
               transition: 'color 0.3s ease',
-              '&:hover': {
-                color: '#ffcc00', // Yellow on hover
-              },
+              '&:hover': { color: '#ffcc00' },
             }}
           >
             <FaEnvelope size={24} />
-            <Typography>alexandrerdrsantos01@gmail.com</Typography>
+            <Typography>{t('contact_email')}</Typography>
           </Link>
           <Link
             href="#your-instagram-link"
@@ -55,15 +54,13 @@ const ContactSection = (props) => {
               gap: 1,
               color: 'white',
               mb: 2,
-              textDecoration: 'none', // No underline
+              textDecoration: 'none',
               transition: 'color 0.3s ease',
-              '&:hover': {
-                color: '#ffcc00', // Yellow on hover
-              },
+              '&:hover': { color: '#ffcc00' },
             }}
           >
             <FaInstagram size={24} />
-            <Typography>Instagram (add later)</Typography>
+            <Typography>{t('contact_instagram')}</Typography>
           </Link>
           <Link
             href="#your-discord-link"
@@ -73,15 +70,13 @@ const ContactSection = (props) => {
               gap: 1,
               color: 'white',
               mb: 2,
-              textDecoration: 'none', // No underline
+              textDecoration: 'none',
               transition: 'color 0.3s ease',
-              '&:hover': {
-                color: '#ffcc00', // Yellow on hover
-              },
+              '&:hover': { color: '#ffcc00' },
             }}
           >
             <FaDiscord size={24} />
-            <Typography>Discord (add later)</Typography>
+            <Typography>{t('contact_discord')}</Typography>
           </Link>
         </Grid>
 
@@ -97,7 +92,7 @@ const ContactSection = (props) => {
           >
             <TextField
               fullWidth
-              label="Your Email"
+              label={t('contact_form_email')}
               variant="outlined"
               InputLabelProps={{ style: { color: 'white' } }}
               sx={{
@@ -108,7 +103,7 @@ const ContactSection = (props) => {
             />
             <TextField
               fullWidth
-              label="Subject"
+              label={t('contact_form_subject')}
               variant="outlined"
               InputLabelProps={{ style: { color: 'white' } }}
               sx={{
@@ -119,7 +114,7 @@ const ContactSection = (props) => {
             />
             <TextField
               fullWidth
-              label="Your Message"
+              label={t('contact_form_message')}
               multiline
               rows={5}
               variant="outlined"
@@ -135,7 +130,7 @@ const ContactSection = (props) => {
               type="submit"
               sx={{ backgroundColor: '#ffcc00', color: '#000', ':hover': { backgroundColor: '#ffaa00' } }}
             >
-              Send Message
+              {t('contact_form_button')}
             </Button>
           </Box>
         </Grid>
