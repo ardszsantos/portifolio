@@ -27,7 +27,7 @@ const ContactSection = (props) => {
       <form className="contact-form">
         <input type="email" name="email" placeholder="Your Email" required />
         <input type="text" name="subject" placeholder="Subject" required />
-        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+        <textarea name="message" placeholder="Your Message"  rows="5" required></textarea>
         <button type="submit">Send Message</button>
       </form>
     </div>
