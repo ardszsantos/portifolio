@@ -8,8 +8,8 @@ const ContactSection = (props) => {
   return (
     <Box {...props} id="contact" sx={{ padding: '40px', maxWidth: '1000px', margin: '15em auto 10em', overflow: 'hidden' }}>
       <Grid container spacing={4} id="contato" justifyContent="center">
-        <Grid item xs={12} md={6} display="flex" flexDirection="column" alignItems="center">
-          <Typography variant="h4" gutterBottom color="white">
+        <Grid item xs={12} md={6} display="flex" flexDirection="column" gap="10px" alignItems="left">
+          <Typography variant="h4" gutterBottom color="white" sx={{ margin: '0 0 1em 0', fontFamily: 'Jetbrains MONO'}}>
             {t('contact_title')}
           </Typography>
           <Link
@@ -25,6 +25,7 @@ const ContactSection = (props) => {
               textDecoration: 'none',
               transition: 'color 0.3s ease',
               '&:hover': { color: '#ffcc00' },
+              
             }}
           >
             <FaWhatsapp size={24} />

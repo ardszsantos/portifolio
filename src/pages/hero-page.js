@@ -16,7 +16,10 @@ const HeroSection = () => {
           <span className='great-span'>{greaterthan}</span>
           <span className='ale-span'>Alexandre Rodrigues</span> 👋
         </h1>
-        <p>{t('developer_title')}</p>
+        <p className="glowing-text" data-text={t('developer_title')}>
+          {t('developer_title')}
+        </p>
+
         <button><a href='#contato'>{t('cta')}</a></button>
       </div>
 

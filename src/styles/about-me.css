@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
 
 .wrapper-two {
   display: flex;
@@ -31,7 +32,7 @@
 }
 
 .interesses {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Fira Code", monospace;
   margin-bottom: 1.5em;
 }
 
@@ -40,6 +41,7 @@
 .about-cards {
   display: flex;
   gap: 40px;
+  font-family: "Fira Code", monospace;
 }
 
 
@@ -68,6 +70,7 @@
 
 .skills {
   margin: 40px 0;
+  font-family: "JetBrains Mono", monospace;
 }
 
 .skills h2 {
@@ -142,6 +145,10 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+  }
+
+  .skills {
+    padding: 15px;
   }
 }
 

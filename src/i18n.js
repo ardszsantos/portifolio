@@ -7,7 +7,7 @@ const resources = {
     translation: {
       // Hero section
       "greeting": "Hello, I'm",
-      "developer_title": "Front End Developer passionate about creating innovative and efficient solutions.",
+      "developer_title": "Front End Developer",
       "cta": "CONTACT ME",
 
       // About Me section
@@ -71,7 +71,7 @@ const resources = {
     translation: {
       // Hero section
       "greeting": "Olá, sou",
-      "developer_title": "Desenvolvedor Front End apaixonado por criar soluções inovadoras e eficientes.",
+      "developer_title": "Desenvolvedor Front End ",
       "cta": "ENTRE EM CONTATO",
 
       // About Me section
