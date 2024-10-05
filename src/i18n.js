@@ -71,7 +71,7 @@ const resources = {
     translation: {
       // Hero section
       "greeting": "Olá, sou",
-      "developer_title": "Desenvolvedor Front End ",
+      "developer_title": "Desenvolvedor Front End",
       "cta": "ENTRE EM CONTATO",
 
       // About Me section
