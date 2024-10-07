@@ -60,6 +60,7 @@ const ProjectCard = ({ imgUrl, title, description, iconComponent, gitUrl, pageUr
           </div>
           <div>
             <h4>Detailed Description:</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, voluptate tempora sed ad eaque facere laudantium? Inventore cupiditate sint, eligendi quibusdam quidem odio nostrum? Autem, odio vel. Non, expedita facere.</p>
           </div>
         </div>
       </Modal>

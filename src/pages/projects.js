@@ -7,23 +7,23 @@ import { MdOutlineWebAssetOff, MdOutlineWebAsset } from "react-icons/md";
 import { techIcons1, techIcons2, techIcons3, iconColors1, iconColors2, iconColors3, techIcons4, iconColors4, techIcons5, iconColors5, techIcons6, iconColors6 } from '../components/techStack';
 import opencvImg from '../assets/images/OPENCV.png'
 import dueljj from '../assets/images/duelljjCUstom.png'
-import minimalPortImg from '../assets/images/minimalport.png'
+import terminalEmul from '../assets/images/terminal.png'
 import presentationImg from '../assets/images/presentationImg.png'
-import foodiLanding from '../assets/images/foodiLanding.png'
+import aluraLanding from '../assets/images/aluraLanding.png'
 
 const ProjectsSection = (props) => {
   const { t } = useTranslation();
   const noWebIcon = <MdOutlineWebAssetOff />;
   const webIcon = <MdOutlineWebAsset />;
   const project1GitUrl = 'https://github.com/ardszsantos/ecommerce-store';
-  const project2GitUrl = 'https://github.com/ardszsantos/foodi-tailwindreact';
+  const project2GitUrl = 'https://github.com/ardszsantos/aluralivros';
   const project3GitUrl = 'https://github.com/ardszsantos/CV-Macro';
   const project4GitUrl = 'https://github.com/ardszsantos/dueljj-custom';
-  const project5GitUrl = 'https://github.com/ardszsantos/ards-port';
+  const project5GitUrl = 'https://github.com/ardszsantos/terminal-html';
   const project6GitUrl = 'https://github.com/ardszsantos/presentation-page';
   const project1Demo = 'https://fredbola.com.br';
-  const project2Demo = 'https://ardszsantos.github.io/foodi-tailwindreact/';
-  const project5Demo = 'https://ards-port.vercel.app/';
+  const project2Demo = 'https://ardszsantos.github.io/aluralivros/';
+  const project5Demo = 'https://ardszsantos.github.io/terminal-html/';
   const project6Demo = 'https://ardszsantos.github.io/presentation-page/';
 
   return (
@@ -43,7 +43,7 @@ const ProjectsSection = (props) => {
               iconColors={iconColors1}
             />
             <ProjectCard
-              imgUrl={foodiLanding}
+              imgUrl={aluraLanding}
               title={t('project2_title')}
               description={t('project2_description')}
               iconComponent={webIcon}
@@ -73,7 +73,7 @@ const ProjectsSection = (props) => {
               iconColors={iconColors4}
             />
             <ProjectCard
-              imgUrl={minimalPortImg}
+              imgUrl={terminalEmul}
               title={t('project5_title')}
               description={t('project5_description')}
               iconComponent={webIcon}

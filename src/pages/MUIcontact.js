@@ -6,8 +6,8 @@ const ContactSection = (props) => {
   const { t } = useTranslation();
 
   return (
-    <Box {...props} id="contact" sx={{ padding: '40px', maxWidth: '1000px', margin: '15em auto 10em', overflow: 'hidden' }}>
-      <Grid container spacing={4} id="contato" justifyContent="center">
+    <Box {...props} id="contato" sx={{ padding: '40px', maxWidth: '1000px', margin: '15em auto 10em', overflow: 'hidden' }}>
+      <Grid container spacing={4} id="contact" justifyContent="center">
         <Grid item xs={12} md={6} display="flex" flexDirection="column" gap="10px" alignItems="left">
           <Typography variant="h4" gutterBottom color="white" sx={{ margin: '0 0 1em 0', fontFamily: 'Jetbrains MONO'}}>
             {t('contact_title')}
