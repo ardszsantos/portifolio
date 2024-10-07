@@ -107,6 +107,17 @@
   
 }
 
+
+@media (min-width: 1370px) and (max-width: 1600px) {
+  .wrapper-two {
+    padding: 25px 100px;
+    margin-top: 10em;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
 @media (min-width: 801px) and (max-width: 1370px ) {
   .wrapper-two {
     padding: 25px 50px;
