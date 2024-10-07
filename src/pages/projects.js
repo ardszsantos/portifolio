@@ -23,7 +23,7 @@ const ProjectsSection = (props) => {
   const project6GitUrl = 'https://github.com/ardszsantos/presentation-page';
   const project1Demo = 'https://fredbola.com.br';
   const project2Demo = 'https://ardszsantos.github.io/aluralivros/';
-  const project5Demo = 'https://ardszsantos.github.io/terminal-html/';
+  const project5Demo = 'https://terminal-html-qp9by7bpl-fredaobobs-projects.vercel.app/';
   const project6Demo = 'https://ardszsantos.github.io/presentation-page/';
 
   return (
