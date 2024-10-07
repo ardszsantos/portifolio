@@ -1,7 +1,8 @@
 import '../styles/projectCard.css';
+import '../styles/modalStyles.css';
 import { useState } from 'react';
 import Modal from 'react-modal';
-import { FaGithub, FaTools } from "react-icons/fa";  // Import the tool icon
+import { FaGithub, FaInfoCircle,  } from "react-icons/fa";  // Import the tool icon
 
 Modal.setAppElement('#root');
 
@@ -25,56 +26,41 @@ const ProjectCard = ({ imgUrl, title, description, iconComponent, gitUrl, pageUr
         <div className='project-info'>
           <a href={pageUrl} target='_blank'>Demo {iconComponent}</a>
           <a href={gitUrl} target='_blank'>Repo <FaGithub /></a>
-
-          {/* Button to trigger modal */}
-          <button className='tool-button' onClick={openModal}>
-            <FaTools size={16} />
-          </button>
+          <a onClick={openModal} > Info<FaInfoCircle/></a>
         </div>
       </div>
 
       <Modal
         isOpen={modalIsOpen}
         onRequestClose={closeModal}
-        contentLabel="Project Tech Stack"
-        style={{
-          overlay: { backgroundColor: 'rgba(0, 0, 0, 0.75)' },
-          content: {
-            backgroundColor: 'rgba(255, 255, 255, 0.1)',  // Glass-like effect
-            backdropFilter: 'blur(15px)',  // Adds the blur effect
-            border: '1px solid rgba(255, 255, 255, 0.2)',  // Border to give a subtle outline
-            color: 'white',
-            padding: '40px',  // Increased padding for better spacing
-            top: '50%',
-            left: '50%',
-            right: 'auto',
-            bottom: 'auto',
-            marginRight: '-50%',
-            transform: 'translate(-50%, -50%)',
-            borderRadius: '10px',  // Slight rounding for a softer look
-          }
-        }}
+        contentLabel="Project Info"
+        className="modal-content"
+        overlayClassName="modal-overlay"
       >
-        <button onClick={closeModal} style={{ float: 'right' }}>X</button>
-        <h2>Tech Stack for {title}</h2>
-        <div style={{ display: 'flex', gap: '15px', marginTop: '20px' }}>
-          {techIcons.length > 0 ? (
-            techIcons.map((IconComponent, index) => (
-              <div
-                key={index}
-                style={{
-                  color: iconColors[index] || 'black',
-                  border: '2px solid rgba(255, 255, 255, 0.5)',  // High-contrast border for visibility
-                  padding: '10px',
-                  borderRadius: '5px'  // Optional rounding for a smoother feel
-                }}
-              >
-                <IconComponent size={30} />
-              </div>
-            ))
-          ) : (
-            <p>No icons available</p>
-          )}
+        <button onClick={closeModal} className="modal-close-btn">X</button>
+        <h2>{title} | Info</h2>
+        <div className="modal-flex-container">
+          <div className="modal-tech-stack">
+            <h4>Tech Stack:</h4>
+            <div className="modal-grid">
+              {techIcons.length > 0 ? (
+                techIcons.map((IconComponent, index) => (
+                  <div
+                    key={index}
+                    className="modal-grid-item"
+                    style={{ color: iconColors[index] || 'black' }}
+                  >
+                    <IconComponent size={30} />
+                  </div>
+                ))
+              ) : (
+                <p>No icons available</p>
+              )}
+            </div>
+          </div>
+          <div>
+            <h4>Detailed Description:</h4>
+          </div>
         </div>
       </Modal>
 
