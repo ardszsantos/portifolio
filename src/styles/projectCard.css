@@ -1,6 +1,6 @@
 .projectCardContainer {
   background-color: rgba(0, 0, 0, 0.333);
-  width: 820px;
+  width: 650px;
   height: 10em;
   border-radius: 12px;
   padding: 16px 16px;
@@ -27,6 +27,7 @@
   width: 164px;
   height: 164px;
   border-radius: 12px;
+  object-fit: cover;
 }
 
 
@@ -95,9 +96,12 @@
 
 
 @media (max-width: 450px) {
+
+
+
   .projectCardContainer {
     height: 8.5em;
-    width: 240px;
+    width: 300px;
 
   }
 

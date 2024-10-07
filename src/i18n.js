@@ -42,11 +42,16 @@ const resources = {
       "projects_title": "> projects_",
       "project1_title": "camisasTop - Store",
       "project1_description": "Full-Stack E-Commerce Store, made to sell any product.",
-      "project2_title": "camisasTop - Admin",
-      "project2_description": "E-Commerce Admin Dashboard. Made to add and manage products.",
+      "project2_title": "Foodi Landing Page",
+      "project2_description": "Landing page for a restaurant.",
       "project3_title": "Open-Cv Automation",
       "project3_description": "Automation using computer vision. Recognizes images and executes actions.",
-
+      "project4_title": "DuellJJ - Custom Theme",
+      "project4_description": "Custom zsh theme for my kitty-terminal",
+      "project5_title": "Basic Portfolio",
+      "project5_description": "Minimalist style portfolio.",
+      "project6_title": "Presentation Page",
+      "project6_description": "Modern website made to present myself.",
 
       // Footer Section (new translations)
       "footer_all_rights": "All rights reserved.",
@@ -106,10 +111,16 @@ const resources = {
       "projects_title": "> projetos_",
       "project1_title": "camisasTop - Loja",
       "project1_description": "Loja online Full-Stack, feita para a veda de qualquer produto.",
-      "project2_title": "camisasTop - Admin",
-      "project2_description": "Painel de adminstração da loja. Feito para adicionar e gerenciar produtos.",
+      "project2_title": "Foodi Landing Page",
+      "project2_description": "Landing page para um restaurante",
       "project3_title": "Automação com Open-Cv",
       "project3_description": "Automação utilizando visão computacional. Reconhece imagens e executa ações.",
+      "project4_title": "DuellJJ - Tema Custom",
+      "project4_description": "Tema de customização para o meu terminal",
+      "project5_title": "Portifolio Basico",
+      "project5_description": "Portifolio com estilo minimalista.",
+      "project6_title": "Página de apresentação",
+      "project6_description": "Pagina moderna com objetivo de me apresentar.",
 
       // Footer Section (new translations)
       "footer_all_rights": "Todos os direitos reservados.",

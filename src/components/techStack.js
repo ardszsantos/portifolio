@@ -1,5 +1,5 @@
 import { FaReact, FaStripe } from 'react-icons/fa';
-import { SiNextdotjs, SiTailwindcss, SiPrisma, SiMysql, SiCloudinary, SiTypescript, SiZod, SiClerk, SiOpencv, SiPython, SiNumpy, SiWindows } from 'react-icons/si';
+import { SiNextdotjs, SiTailwindcss, SiPrisma, SiMysql, SiCloudinary, SiTypescript, SiZod, SiClerk, SiOpencv, SiPython, SiNumpy, SiWindows, SiLinux, SiShell } from 'react-icons/si';
 
 export const techIcons1 = [
   FaReact,        // React
@@ -65,4 +65,38 @@ export const iconColors3 = [
   '#013243',  // NumPy
   '#00BCF2',  // Windows
   '#FFFAF0'   // Tkinter
+];
+
+// Tech Stack for CV-Macro
+export const techIcons4 = [
+  SiLinux,
+  SiShell
+];
+
+export const iconColors4 = [
+  '#5C3EE8',  // OpenCV
+  '#FFD43B',  // Python
+
+];
+// Tech Stack for CV-Macro
+export const techIcons5 = [
+  SiLinux,
+  SiShell
+];
+
+export const iconColors5 = [
+  '#5C3EE8',  // OpenCV
+  '#FFD43B',  // Python
+
+];
+// Tech Stack for CV-Macro
+export const techIcons6 = [
+  SiLinux,
+  SiShell
+];
+
+export const iconColors6 = [
+  '#5C3EE8',  // OpenCV
+  '#FFD43B',  // Python
+
 ];

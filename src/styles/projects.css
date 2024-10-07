@@ -27,6 +27,10 @@
   gap: 2em;
 }
 
+[data-aos] {
+  overflow: visible;
+}
+
 @media (max-width: 1280px) {
   .projects-wrapper {
     padding: 40px;
@@ -37,19 +41,22 @@
   }
 }
 
-@media (max-width: 800px) {
-  .projects-wrapper h1 {
-      font-size: 40px;
-      font-family: "Open Sans", sans-serif;
-      text-align: left;
-    }
+
+
+@media (max-width:  800px) {
   .projects-wrapper {
-    margin-left: 0;
-    padding-left: 60px;
+    height: 100%;
+    margin-top: 6em;
   }
-}
 
+  .projects-group  {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    height: auto;
+    padding-bottom: 2em;
+  }
 
-@media (max-width:  450px) {
   
+
 }
