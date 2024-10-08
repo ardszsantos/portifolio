@@ -10,7 +10,7 @@
 .modal-content {
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 47.5%;
   right: auto;
   bottom: auto;
   transform: translate(-50%, -50%);
@@ -19,7 +19,7 @@
   padding: 40px;
   border-radius: 10px;
   color: white;
-  backdrop-filter: blur(15px);
+  backdrop-filter: blur(55px);
 }
 
 .modal-close-btn {
@@ -34,6 +34,14 @@
 .modal-tech-stack {
   width: 300px;
 }
+
+
+
+.modal-detailed-description {
+  width: 50%;
+}
+
+
 
 .modal-grid {
   display: grid;
@@ -53,7 +61,7 @@
 
 @media (max-width: 600px) {
   .modal-content {
-    width: 85%;
+    width: 80%;
     padding: 15px;
   }
 
@@ -62,6 +70,9 @@
     gap: 1.5em;
   }
 
+  .modal-detailed-description {
+    width: 100%;
+  }
   .modal-tech-stack {
     width: 100%;
   }
