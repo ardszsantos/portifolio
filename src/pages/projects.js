@@ -2,7 +2,6 @@ import { useTranslation } from 'react-i18next';
 import ProjectCard from '../components/projectCard';
 import '../styles/projects.css'
 import camisasTop from '../assets/images/ecommerce.png'
-import camisasTopA from '../assets/images/ecommerce2.png'
 import { MdOutlineWebAssetOff, MdOutlineWebAsset } from "react-icons/md";
 import { techIcons1, techIcons2, techIcons3, iconColors1, iconColors2, iconColors3, techIcons4, iconColors4, techIcons5, iconColors5, techIcons6, iconColors6 } from '../components/techStack';
 import opencvImg from '../assets/images/OPENCV.png'
@@ -36,26 +35,31 @@ const ProjectsSection = (props) => {
               imgUrl={camisasTop}
               title={t('project1_title')}
               description={t('project1_description')}
+              detailedDescription={t('project1_detailed_description')}
               iconComponent={webIcon}
               gitUrl={project1GitUrl}
               pageUrl={project1Demo}
               techIcons={techIcons1}
               iconColors={iconColors1}
             />
+
             <ProjectCard
               imgUrl={aluraLanding}
               title={t('project2_title')}
               description={t('project2_description')}
+              detailedDescription={t('project2_detailed_description')}
               iconComponent={webIcon}
               gitUrl={project2GitUrl}
               pageUrl={project2Demo}
               techIcons={techIcons2}
               iconColors={iconColors2}
             />
+
             <ProjectCard
               imgUrl={opencvImg}
               title={t('project3_title')}
               description={t('project3_description')}
+              detailedDescription={t('project3_detailed_description')}
               iconComponent={noWebIcon}
               gitUrl={project3GitUrl}
               techIcons={techIcons3}
@@ -67,25 +71,30 @@ const ProjectsSection = (props) => {
               imgUrl={dueljj}
               title={t('project4_title')}
               description={t('project4_description')}
+              detailedDescription={t('project4_detailed_description')}
               iconComponent={noWebIcon}
               gitUrl={project4GitUrl}
               techIcons={techIcons4}
               iconColors={iconColors4}
             />
+
             <ProjectCard
               imgUrl={terminalEmul}
               title={t('project5_title')}
               description={t('project5_description')}
+              detailedDescription={t('project5_detailed_description')}
               iconComponent={webIcon}
               gitUrl={project5GitUrl}
               pageUrl={project5Demo}
               techIcons={techIcons5}
               iconColors={iconColors5}
             />
+
             <ProjectCard
               imgUrl={presentationImg}
               title={t('project6_title')}
               description={t('project6_description')}
+              detailedDescription={t('project6_detailed_description')}
               iconComponent={webIcon}
               gitUrl={project6GitUrl}
               pageUrl={project6Demo}
