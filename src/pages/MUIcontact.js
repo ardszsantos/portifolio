@@ -84,6 +84,8 @@ const ContactSection = (props) => {
         <Grid item xs={12} md={6}>
           <Box
             component="form"
+            action="https://formspree.io/f/xovqayzr" 
+            method="POST"
             sx={{
               display: 'flex',
               flexDirection: 'column',
@@ -94,6 +96,7 @@ const ContactSection = (props) => {
             <TextField
               fullWidth
               label={t('contact_form_email')}
+              name="email"
               variant="outlined"
               InputLabelProps={{ style: { color: 'white' } }}
               sx={{
@@ -105,6 +108,7 @@ const ContactSection = (props) => {
             <TextField
               fullWidth
               label={t('contact_form_subject')}
+              name="subject"
               variant="outlined"
               InputLabelProps={{ style: { color: 'white' } }}
               sx={{
@@ -116,6 +120,7 @@ const ContactSection = (props) => {
             <TextField
               fullWidth
               label={t('contact_form_message')}
+              name="message"
               multiline
               rows={5}
               variant="outlined"
