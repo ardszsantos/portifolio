@@ -38,20 +38,33 @@ const resources = {
       "about_me_python": "Python",
       "about_me_description_4": "and in Data Analysis.",
 
+
       // Projects Section
       "projects_title": "> projects_",
       "project1_title": "camisasTop - Store",
       "project1_description": "Full-Stack E-Commerce Store, made to sell any product.",
+      "project1_detailed_description": "A complete e-commerce platform with both front-end and back-end implementation, providing features like product management, cart, and payment integration for seamless user experience.",
+
       "project2_title": "Alura Books",
       "project2_description": "Front end for an E-Book Store.",
+      "project2_detailed_description": "A responsive front-end design for a book store that showcases an intuitive UI, focusing on ease of navigation and book display.",
+
       "project3_title": "Open-Cv Automation",
       "project3_description": "Automation using computer vision. Recognizes images and executes actions.",
+      "project3_detailed_description": "An automation tool utilizing OpenCV to recognize objects and trigger automated responses, suitable for a variety of use cases in image recognition.",
+
       "project4_title": "DuellJJ - Custom Theme",
       "project4_description": "Custom zsh theme for my kitty-terminal",
+      "project4_detailed_description": "A custom theme designed for a terminal emulator, tailored to enhance readability and provide a sleek developer experience.",
+
       "project5_title": "Terminal Page",
       "project5_description": "Web-Terminal.",
+      "project5_detailed_description": "A browser-based terminal emulator that replicates the functionality of a command-line interface within a web environment, providing a real terminal experience.",
+
       "project6_title": "Presentation Page",
       "project6_description": "Modern website made to present myself.",
+      "project6_detailed_description": "A portfolio website designed with a modern aesthetic to showcase personal projects and skills, built with attention to responsiveness and user engagement.",
+
 
       // Footer Section (new translations)
       "footer_all_rights": "All rights reserved.",
@@ -111,16 +124,27 @@ const resources = {
       "projects_title": "> projetos_",
       "project1_title": "camisasTop - Loja",
       "project1_description": "Loja online Full-Stack, feita para a veda de qualquer produto.",
+      "project1_detailed_description": "Uma plataforma completa de e-commerce, com implementação de front-end e back-end, oferecendo recursos como gerenciamento de produtos, carrinho e integração de pagamentos para uma experiência de usuário fluida.",
+
       "project2_title": "Alura Livros",
       "project2_description": "Front-End de uma loja de livros.",
+      "project2_detailed_description": "Design responsivo para uma loja de livros com UI intuitiva, focada na facilidade de navegação e exibição de livros.",
+
       "project3_title": "Automação com Open-Cv",
       "project3_description": "Automação utilizando visão computacional. Reconhece imagens e executa ações.",
+      "project3_detailed_description": "Ferramenta de automação que utiliza OpenCV para reconhecer objetos e acionar respostas automáticas, adequada para uma variedade de casos de uso em reconhecimento de imagens.",
+
       "project4_title": "DuellJJ - Tema Custom",
       "project4_description": "Tema de customização para o meu terminal",
+      "project4_detailed_description": "Tema customizado projetado para um emulador de terminal, aprimorando a legibilidade e proporcionando uma experiência de desenvolvimento elegante.",
+
       "project5_title": "Página Terminal",
       "project5_description": "Emulação de um terminal na web.",
+      "project5_detailed_description": "Emulador de terminal baseado em navegador que replica a funcionalidade de uma interface de linha de comando em um ambiente web, proporcionando uma experiência de terminal real.",
+
       "project6_title": "Página de apresentação",
-      "project6_description": "Pagina moderna com objetivo de me apresentar.",
+      "project6_description": "Página moderna com objetivo de me apresentar.",
+      "project6_detailed_description": "Um site de portfólio moderno, projetado para exibir projetos pessoais e habilidades, construído com atenção à responsividade e ao engajamento do usuário.",
 
       // Footer Section (new translations)
       "footer_all_rights": "Todos os direitos reservados.",
