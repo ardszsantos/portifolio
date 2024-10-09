@@ -57,6 +57,10 @@
   gap: 5px;
 }
 
+.project-info a:hover {
+  transform: scale(1.1);
+}
+
 .tool-button {
   background: none;
   border: none;
@@ -64,10 +68,14 @@
 }
 
 
-@media (max-width: 1200px) {
+@media (max-width: 1500px) {
   .projectCardContainer {
     height: 7.5em;
     width: 400px;
+  }
+
+  .projectCardContainer:hover {
+    transform: none;
   }
 
   .projectCardContainer img {
@@ -95,8 +103,10 @@
 }
 
 
-@media (max-width: 450px) {
-
+@media (max-width: 1000px) {
+.projectCardContainer:hover {
+    transform: none;
+  }
 
 
   .projectCardContainer {
