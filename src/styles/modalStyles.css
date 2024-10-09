@@ -58,6 +58,44 @@
   justify-content: center;
 }
 
+.modal-grid-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon-name {
+  display: none;
+  font-size: 15px;
+  font-weight: 900;
+  color: white;
+  margin-top: 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.8);
+  opacity: 0;
+  visibility: hidden;
+  z-index: 2;
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+
+.modal-grid-item:hover .icon-name {
+  display: block;
+  transform: translate(-50%, -50%) scale(1);
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal-grid-item svg {
+  transition: filter 0.2s ease-in-out;
+}
+
+.modal-grid-item:hover svg {
+  filter: blur(3px);
+}
+
 
 @media (max-width: 600px) {
   .modal-content {
