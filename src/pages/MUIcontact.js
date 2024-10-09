@@ -97,7 +97,7 @@ const ContactSection = (props) => {
               fullWidth
               label={t('contact_form_email')}
               name="email"
-              required="true"
+              required={true}
               variant="outlined"
               InputLabelProps={{ style: { color: 'white' } }}
               sx={{
@@ -110,7 +110,7 @@ const ContactSection = (props) => {
               fullWidth
               label={t('contact_form_subject')}
               name="subject"
-              required="true"
+              required={true}
               variant="outlined"
               InputLabelProps={{ style: { color: 'white' } }}
               sx={{
@@ -123,7 +123,7 @@ const ContactSection = (props) => {
               fullWidth
               label={t('contact_form_message')}
               name="message"
-              required="true"
+              required={true}
               multiline
               rows={5}
               variant="outlined"
