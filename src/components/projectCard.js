@@ -44,15 +44,19 @@ const ProjectCard = ({ imgUrl, title, description, detailedDescription, iconComp
             <h4>Tech Stack:</h4>
             <div className="modal-grid">
               {techIcons.length > 0 ? (
-                techIcons.map((IconComponent, index) => (
-                  <div
-                    key={index}
-                    className="modal-grid-item"
-                    style={{ color: iconColors[index] || 'black' }}
-                  >
-                    <IconComponent size={30} />
-                  </div>
-                ))
+                techIcons.map((iconData, index) => {
+                  const IconComponent = iconData.component;
+                  return (
+                    <div
+                      key={index}
+                      className="modal-grid-item"
+                      style={{ color: iconColors[index] || 'black' }}
+                    >
+                      <IconComponent size={30} />
+                      <span className="icon-name">{iconData.name}</span>
+                    </div>
+                  );
+                })
               ) : (
                 <p>No icons available</p>
               )}
@@ -63,6 +67,7 @@ const ProjectCard = ({ imgUrl, title, description, detailedDescription, iconComp
             <p>{detailedDescription}</p>
           </div>
         </div>
+
       </Modal>
 
     </div>

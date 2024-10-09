@@ -1,17 +1,17 @@
 import { FaReact, FaStripe } from 'react-icons/fa';
-import { SiNextdotjs, SiTailwindcss, SiPrisma, SiMysql, SiCloudinary, SiTypescript, SiZod, SiClerk, SiOpencv, SiPython, SiNumpy, SiWindows, SiLinux, SiShell } from 'react-icons/si';
+import { SiNextdotjs, SiTailwindcss, SiPrisma, SiMysql, SiCloudinary, SiTypescript, SiZod, SiClerk, SiOpencv, SiPython, SiNumpy, SiWindows, SiLinux, SiShell, SiSass, SiJavascript, SiHtml5, SiJquery, SiCss3 } from 'react-icons/si';
 
 export const techIcons1 = [
-  FaReact,        // React
-  SiNextdotjs,    // Next.js
-  SiTypescript,   // TypeScript
-  SiTailwindcss,  // Tailwind CSS
-  SiPrisma,       // Prisma
-  SiMysql,        // MySQL
-  FaStripe,       // Stripe
-  SiCloudinary,   // Cloudinary
-  SiClerk,        // Clerk
-  SiZod           // Zod
+  { component: FaReact, name: 'React' },
+  { component: SiNextdotjs, name: 'Next.js' },
+  { component: SiTypescript, name: 'TypeScript' },
+  { component: SiTailwindcss, name: 'Tailwind CSS' },
+  { component: SiPrisma, name: 'Prisma' },
+  { component: SiMysql, name: 'MySQL' },
+  { component: FaStripe, name: 'Stripe' },
+  { component: SiCloudinary, name: 'Cloudinary' },
+  { component: SiClerk, name: 'Clerk' },
+  { component: SiZod, name: 'Zod' }
 ];
 
 export const iconColors1 = [
@@ -29,15 +29,16 @@ export const iconColors1 = [
 
 // Tech Stack for ecommerce-admin
 export const techIcons2 = [
-  FaReact,        // React
-  SiNextdotjs,    // Next.js
-  SiTypescript,   // TypeScript
-  SiTailwindcss,  // Tailwind CSS
-  SiPrisma,       // Prisma
-  SiMysql,        // MySQL
-  FaStripe,       // Stripe
-  SiClerk,        // Clerk
+  { component: FaReact, name: 'React' },
+  { component: SiNextdotjs, name: 'Next.js' },
+  { component: SiTypescript, name: 'TypeScript' },
+  { component: SiTailwindcss, name: 'Tailwind CSS' },
+  { component: SiPrisma, name: 'Prisma' },
+  { component: SiMysql, name: 'MySQL' },
+  { component: FaStripe, name: 'Stripe' },
+  { component: SiClerk, name: 'Clerk' }
 ];
+
 
 export const iconColors2 = [
   '#61DAFB',    // React
@@ -53,10 +54,10 @@ export const iconColors2 = [
 
 // Tech Stack for CV-Macro
 export const techIcons3 = [
-  SiOpencv,   // OpenCV
-  SiPython,   // Python
-  SiNumpy,    // NumPy
-  SiWindows,  // Windows GUI (win32gui)
+  { component: SiOpencv, name: 'OpenCV' },
+  { component: SiPython, name: 'Python' },
+  { component: SiNumpy, name: 'NumPy' },
+  { component: SiWindows, name: 'Windows' }
 ];
 
 export const iconColors3 = [
@@ -67,36 +68,41 @@ export const iconColors3 = [
   '#FFFAF0'   // Tkinter
 ];
 
-// Tech Stack for CV-Macro
 export const techIcons4 = [
-  SiLinux,
-  SiShell
+  { component: SiLinux, name: 'Linux' },
+  { component: SiShell, name: 'Shell' }
 ];
+
 
 export const iconColors4 = [
   '#5C3EE8',  // OpenCV
   '#FFD43B',  // Python
 
 ];
-// Tech Stack for CV-Macro
+
+
 export const techIcons5 = [
-  SiLinux,
-  SiShell
+  { component: SiJquery, name: 'jQuery' },
+  { component: SiCss3, name: 'CSS3' },
+  { component: SiHtml5, name: 'HTML5' }
 ];
+
 
 export const iconColors5 = [
   '#5C3EE8',  // OpenCV
-  '#FFD43B',  // Python
-
+  '#264DE4',
+  '#E34C26'
 ];
-// Tech Stack for CV-Macro
+
+
 export const techIcons6 = [
-  SiLinux,
-  SiShell
+  { component: SiSass, name: 'Sass' },
+  { component: SiJavascript, name: 'JavaScript' },
+  { component: SiHtml5, name: 'HTML5' }
 ];
 
 export const iconColors6 = [
-  '#5C3EE8',  // OpenCV
-  '#FFD43B',  // Python
-
+  '#CD6799',  // OpenCV
+  '#F7DF1E',  // Python
+  '#E34C26'
 ];
