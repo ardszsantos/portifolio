@@ -38,6 +38,25 @@ const resources = {
       "about_me_python": "Python",
       "about_me_description_4": "and in Data Analysis.",
 
+      //experiences
+      "experiences-title": "> experiences_",
+      "experiences-senaiTitle": "Linux Server Administration - SENAI",
+      "experiences-senaiDescription": "60-hour course focused on the creation, management, and maintenance of Linux servers, with a focus on security and task automation.",
+      "experiences-senaiDate": "04/24 - 06/24",
+
+      "experiences-ebacTitle": "Full Stack Python Course - EBAC",
+      "experiences-ebacDescription": "Professional Full Stack course focused on full-stack development with Python, covering topics from front-end to automation, databases, and DevOps.",
+      "experiences-ebacDate": "2023 - Present",
+
+      "experiences-codeTroubleTitle": "Back-End Development - Code Trouble",
+      "experiences-codeTroubleDescription": "Volunteer in the development of the back-end of a collaborative platform similar to Stack Overflow. Using NestJS and Swagger for robust and documented APIs.",
+      "experiences-codeTroubleDate": "2024 - Present",
+
+      "experiences-aluraTitle": "Courses Completed - Alura",
+      "experiences-aluraDescription": "I have completed over 20 courses on the Alura platform, including development areas such as Python, JavaScript, HTML, CSS, Machine Learning, and more. See all the courses in the attached image.",
+      "experiences-aluraDate": "2023 - Present",
+
+
 
       // Projects Section
       "projects_title": "> projects_",
@@ -119,6 +138,25 @@ const resources = {
       "about_me_description_3": "Além do desenvolvimento web, tenho experiência com automação de processos usando ",
       "about_me_python": "Python",
       "about_me_description_4": "e em Análise de Dados.",
+
+      //experiences
+
+      "experiences-title": "> experiências_",
+      "experiences-senaiTitle": "Administração de Servidores Linux - SENAI",
+      "experiences-senaiDescription": "Curso de 60 horas focado na criação, gerenciamento e manutenção de servidores Linux, com foco em segurança e automação de tarefas.",
+      "experiences-senaiDate": "04/24 - 06/24",
+
+      "experiences-ebacTitle": "Curso Full Stack Python - EBAC",
+      "experiences-ebacDescription": "Curso profissionalizante Full Stack, focado no desenvolvimento full-stack com Python, abordando tópicos de front-end a automação, banco de dados e DevOps.",
+      "experiences-ebacDate": "2023 - Presente",
+
+      "experiences-codeTroubleTitle": "Desenvolvimento Back-End - Code Trouble",
+      "experiences-codeTroubleDescription": "Voluntário no desenvolvimento do back-end de uma plataforma colaborativa estilo Stack Overflow. Usando NestJS e Swagger para APIs robustas e documentadas.",
+      "experiences-codeTroubleDate": "2024 - Presente",
+
+      "experiences-aluraTitle": "Cursos Completados - Alura",
+      "experiences-aluraDescription": "Completei mais de 20 cursos na plataforma Alura, incluindo áreas de desenvolvimento como Python, JavaScript, HTML, CSS, Machine Learning, e mais. Veja todos os cursos na imagem anexa.",
+      "experiences-aluraDate": "2023 - Presente",
 
       // Projetos
       "projects_title": "> projetos_",
