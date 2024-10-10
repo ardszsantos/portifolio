@@ -9,6 +9,7 @@ import { useEffect } from "react";
 import ProjectsSection from './pages/projects';
 import ContactSection from './pages/MUIcontact';
 import Footer from './pages/MUIfooter';
+import ExperiencesSection from './pages/experiences';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <NavBar />
       <HeroSection />
       <AboutSection data-aos="fade-right"/>
+      <ExperiencesSection data-aos="fade-right"/>
       <ProjectsSection data-aos="fade-right"/>
       <ContactSection data-aos="fade-right" />
       <Footer/>

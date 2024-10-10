@@ -1,0 +1,22 @@
+.experiences-wrapper {
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: 10em;
+}
+
+.experiences-sub-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.experiences-sub-wrapper h1 {
+  font-size: 55px;
+  text-align: left;
+}
+
+.card-div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
