@@ -22,6 +22,7 @@ const resources = {
       "ai_interest_description": "I use AI tools to optimize and accelerate my workflow in web development, leveraging these technologies to enhance productivity and efficiency in my projects.",
 
       // NavBar section
+      "nav_experiencias": "#experiences",
       "nav_about": "#about",
       "nav_projects": "#projects",
       "nav_contact": "#contact",
@@ -123,6 +124,7 @@ const resources = {
       "ai_interest_description": "Utilizo ferramentas de IA para otimizar e acelerar meu fluxo de trabalho no desenvolvimento web, aproveitando essas tecnologias para aprimorar a produtividade e a eficiência em meus projetos.",
 
       // NavBar section
+      "nav_experiencias": "#experiencias",
       "nav_about": "#sobre",
       "nav_projects": "#projetos",
       "nav_contact": "#contato",

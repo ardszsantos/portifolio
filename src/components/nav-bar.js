@@ -63,6 +63,7 @@ const NavBar = () => {
       </div>
       <nav className={`navigation ${isOpen ? 'active' : ''}`}>
         {/* Update anchor tags to use smoothScrollToSection */}
+        <p><a href="#experiencias" onClick={(e) => smoothScrollToSection(e, 'experiencias')}>{t('nav_experiencias')}</a></p>
         <p><a href="#about" onClick={(e) => smoothScrollToSection(e, 'about')}>{t('nav_about')}</a></p>
         <p><a href="#projects" onClick={(e) => smoothScrollToSection(e, 'projects')}>{t('nav_projects')}</a></p>
         <p><a href="#contact" onClick={(e) => smoothScrollToSection(e, 'contact')}>{t('nav_contact')}</a></p>
