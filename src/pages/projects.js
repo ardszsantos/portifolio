@@ -27,8 +27,8 @@ const ProjectsSection = (props) => {
 
   return (
     <div {...props} id='projects' className="projects-wrapper">
-      <div className='projects-sub-wrapper'>
-        <h1 id='projetos'>{t('projects_title')}</h1>
+      <div id='projetos' className='projects-sub-wrapper'>
+        <h1 >{t('projects_title')}</h1>
         <div className="projects-group">
           <div className="projects-container">
             <ProjectCard
