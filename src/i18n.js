@@ -2,7 +2,11 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 
+
+
 const resources = {
+  
+
   en: {
     translation: {
       // Hero section
@@ -26,9 +30,9 @@ const resources = {
       "nav_about": "#about",
       "nav_projects": "#projects",
       "nav_contact": "#contact",
-      "terminal_welcome_message": "type ''help'' ",
+      "terminal_welcome_message": "type: help ",
       "terminal_error_message": "Command not found!",
-      "terminal_help_message": "Available cmds: cd (hero, about, projects, contact) | echo (text) ",
+      "terminal_help_message": "Available cmds: cd (hero, about, projects, contact) | echo (text) | exit ",
 
       // Card Descriptions (About Me)
       "about_me_description_1": "I am 18 years old, and I am completely passionate about code. Despite my current focus on ",
@@ -138,9 +142,9 @@ const resources = {
       "nav_about": "#sobre",
       "nav_projects": "#projetos",
       "nav_contact": "#contato",
-      "terminal_welcome_message": "Digite ''help'' ",
+      "terminal_welcome_message": "Digite: help ",
       "terminal_error_message": "Comando não encontrado!",
-      "terminal_help_message": "Comandos disponíveis: cd (ola, sobre, projetos, contato) | echo (texto) ",
+      "terminal_help_message": "Comandos disponíveis: cd (ola, sobre, projetos, contato) | echo (texto) | exit ",
 
       // Card Descriptions (About Me)
       "about_me_description_1": "Tenho 18 anos, sou completamente apaixonado por código. Apesar do meu foco atual em ",
