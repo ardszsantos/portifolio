@@ -4,6 +4,8 @@ import { useTranslation } from 'react-i18next';
 import '../styles/nav-bar.css';
 import terminal from '../assets/images/terminal-svgrepo-com.svg';
 import LengSwitcher from './lengswitcher.js';
+import { useSpring, animated } from '@react-spring/web';
+
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -52,14 +54,37 @@ const NavBar = () => {
     },
     help: () => {
       return t('terminal_help_message');
-    }
+    },
+    exit: () => {
+      toggleTerminal()
+    },
   };
+
+  const pulseWithGlow = useSpring({
+    loop: { reverse: true },
+    to: {
+      transform: 'scale(1.1)',
+      filter: 'drop-shadow(0 0 10px rgba(0, 255, 0, 0.7))', // Apply glowing effect around the shape
+    },
+    from: {
+      transform: 'scale(1)',
+      filter: 'drop-shadow(0 0 0px rgba(0, 255, 0, 0))',
+    },
+    config: { tension: 200, friction: 10 },
+  });
+
+
 
   return (
     <div className="main-nav">
       <div className='logo'>
         ards.dev
-        <img src={terminal} alt="Terminal icon" onClick={toggleTerminal} />
+        <animated.img
+          src={terminal}
+          alt="Terminal icon"
+          onClick={toggleTerminal}
+          style={pulseWithGlow} // Apply the animation
+        />
       </div>
       <nav className={`navigation ${isOpen ? 'active' : ''}`}>
         {/* Update anchor tags to use smoothScrollToSection */}
