@@ -44,18 +44,28 @@ const resources = {
       "experiences-senaiTitle": "Linux Server Administration - SENAI",
       "experiences-senaiDescription": "60-hour course focused on the creation, management, and maintenance of Linux servers, with a focus on security and task automation.",
       "experiences-senaiDate": "04/24 - 06/24",
+      "experiences-senaiTitle-back": "Linux Server Administration",
+      "experiences-senaiDescription-back": "The Linux Server Administration course at SENAI equipped me with the skills to install, configure, and manage Linux servers. I gained experience in handling various services such as DHCP, DNS, LDAP, file, web, and remote access servers, as well as firewall management. This training provided the expertise needed to manage Linux systems and ensure secure and efficient server operation.",
+
 
       "experiences-ebacTitle": "Full Stack Python Course - EBAC",
       "experiences-ebacDescription": "Professional Full Stack course focused on full-stack development with Python, covering topics from front-end to automation, databases, and DevOps.",
       "experiences-ebacDate": "2023 - Present",
+      "experiences-ebacTitle-back": "Full Stack Python Course",
+      "experiences-ebacDescription-back": "The Full Stack Python course at EBAC provided comprehensive training in front-end and back-end development. I gained expertise in HTML, CSS, and JavaScript for building responsive interfaces, as well as mastering Python for server-side logic. The course covered database management, API development and integration, and the creation of scalable, real-world applications. I also worked on multiple full-stack projects that reinforced these skills, preparing me to deliver professional solutions in a variety of tech environments.",  
+
 
       "experiences-codeTroubleTitle": "Back-End Development - Code Trouble",
       "experiences-codeTroubleDescription": "Volunteer in the development of the back-end of a collaborative platform similar to Stack Overflow. Using NestJS and Swagger for robust and documented APIs.",
       "experiences-codeTroubleDate": "2024 - Present",
+      "experiences-codeTroubleTitle-back": "Back-End Development ",
+      "experiences-codeTroubleDescription-back": "In the back-end development of Code Trouble, I worked on analyzing the relationships between the application data and contributed to the creation of the database on Aiven, using TypeORM to connect it with NestJS. I helped build the essential entities of the application, ensuring proper data structure. Currently, we are exploring the deployment process on Beanstalk, gradually moving forward with the implementation of the project's features.",
 
       "experiences-aluraTitle": "Courses Completed - Alura",
       "experiences-aluraDescription": "I have completed over 20 courses on the Alura platform, including development areas such as Python, JavaScript, HTML, CSS, Machine Learning, and more. See all the courses in the attached image.",
       "experiences-aluraDate": "2023 - Present",
+      "experiences-aluraTitle-back": "Alura Courses",
+      "experiences-aluraDescription-back": "The Alura courses provided me with a strong foundation in web development, including HTML, CSS, JavaScript, and PHP. I completed modules covering everything from basic structure and responsiveness to more advanced topics such as DOM manipulation, object-oriented programming, and creating dynamic pages with JavaScript. I also gained knowledge in Python, with a focus on data science, and Machine Learning using SKLearn. Additionally, I explored Arduino programming and web development environments, further deepening my understanding of building dynamic and scalable applications.",
 
 
 
@@ -147,18 +157,27 @@ const resources = {
       "experiences-senaiTitle": "Administração de Servidores Linux - SENAI",
       "experiences-senaiDescription": "Curso de 60 horas focado na criação, gerenciamento e manutenção de servidores Linux, com foco em segurança e automação de tarefas.",
       "experiences-senaiDate": "04/24 - 06/24",
+      "experiences-senaiTitle-back": "Administração de Servidores Linux",
+      "experiences-senaiDescription-back": "O curso de Administração de Servidores Linux do SENAI me capacitou a instalar, configurar e gerenciar servidores Linux. Adquiri experiência no manuseio de diversos serviços como DHCP, DNS, LDAP, servidores de arquivos, web e acesso remoto, além de gerenciamento de firewall. Este treinamento me proporcionou a expertise necessária para gerenciar sistemas Linux e garantir a operação segura e eficiente dos servidores.",
 
       "experiences-ebacTitle": "Curso Full Stack Python - EBAC",
       "experiences-ebacDescription": "Curso profissionalizante Full Stack, focado no desenvolvimento full-stack com Python, abordando tópicos de front-end a automação, banco de dados e DevOps.",
       "experiences-ebacDate": "2023 - Presente",
-
+      "experiences-ebacTitle-back": "Curso Full Stack Python",
+      "experiences-ebacDescription-back": "O curso Full Stack Python da EBAC proporcionou uma formação completa em desenvolvimento front-end e back-end. Dominei HTML, CSS e JavaScript para a construção de interfaces responsivas, além de Python para lógica de servidor. O curso abrangeu gerenciamento de bancos de dados, desenvolvimento e integração de APIs e a criação de aplicações escaláveis em cenários reais. Trabalhei em diversos projetos full-stack que reforçaram essas habilidades, preparando-me para entregar soluções profissionais em diferentes ambientes de tecnologia.",
+    
       "experiences-codeTroubleTitle": "Desenvolvimento Back-End - Code Trouble",
       "experiences-codeTroubleDescription": "Voluntário no desenvolvimento do back-end de uma plataforma colaborativa estilo Stack Overflow. Usando NestJS e Swagger para APIs robustas e documentadas.",
       "experiences-codeTroubleDate": "2024 - Presente",
+      "experiences-codeTroubleTitle-back": "Desenvolvimento Back-End",
+      "experiences-codeTroubleDescription-back": "No desenvolvimento do back-end do Code Trouble, trabalhei na análise das relações entre os dados da aplicação e participei da criação do banco de dados na Aiven, utilizando o TypeORM para conectá-lo ao NestJS. Contribuí para a criação das entidades essenciais da aplicação, garantindo a estrutura adequada dos dados. Atualmente, estamos explorando o processo de deploy no Beanstalk, avançando gradualmente na implementação das funcionalidades do projeto.",
 
       "experiences-aluraTitle": "Cursos Completados - Alura",
       "experiences-aluraDescription": "Completei mais de 20 cursos na plataforma Alura, incluindo áreas de desenvolvimento como Python, JavaScript, HTML, CSS, Machine Learning, e mais. Veja todos os cursos na imagem anexa.",
       "experiences-aluraDate": "2023 - Presente",
+      "experiences-aluraTitle-back": "Cursos Completados",
+      "experiences-aluraDescription-back": "Os cursos da Alura proporcionaram uma sólida base em desenvolvimento web, incluindo HTML, CSS, JavaScript e PHP. Completei módulos que abordaram desde conceitos básicos de estrutura e responsividade até tópicos mais avançados como manipulação do DOM, programação orientada a objetos e a criação de páginas dinâmicas com JavaScript. Também adquiri conhecimentos em Python, com foco em ciência de dados, e Machine Learning utilizando SKLearn. Além disso, tive contato com programação de Arduino e ambientes de desenvolvimento web, aprofundando meu entendimento na criação de aplicações dinâmicas e escaláveis.",
+
 
       // Projetos
       "projects_title": "> projetos_",
