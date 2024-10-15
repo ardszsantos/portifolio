@@ -7,7 +7,7 @@ import Box from '@mui/material/Box';
 import { useSpring, animated } from '@react-spring/web';
 import '../styles/expCard.css'; // Importando o CSS separado
 
-const ExpCard = ({ title, description, image, date }) => {
+const ExpCard = ({ title, description, image, date, backTitle, backDescription }) => {
   const [flipped, setFlipped] = useState(false);
 
   const { transform } = useSpring({
@@ -28,23 +28,41 @@ const ExpCard = ({ title, description, image, date }) => {
           position: 'relative',
         }}
       >
-        <Card className="glass-card">
-          <CardMedia component="img" height="180" image={image} alt={title} />
-          <CardContent>
-            <Box className="card-header">
-              <Typography variant="h6" component="div" className="card-title">
-                {title}
+        <div className={`card-side front ${flipped ? 'hidden' : ''}`}>
+          <Card className="glass-card">
+            <CardMedia component="img" height="180" image={image} alt={title} />
+            <CardContent>
+              <Box className="card-header">
+                <Typography variant="h6" component="div" className="card-title">
+                  {title}
+                </Typography>
+                <Typography variant="body2" className="card-date">
+                  {date}
+                </Typography>
+              </Box>
+              <Typography variant="body2" className="card-description">
+                {description}
               </Typography>
-              <Typography variant="body2" className="card-date">
-                {date}
+            </CardContent>
+          </Card>
+        </div>
+        <div className={`card-side back ${flipped ? '' : 'hidden'}`}>
+          <Card className="glass-card2">
+            <CardContent>
+              <Box className="card-header">
+                <Typography variant="h6" component="div" className="card-title">
+                  {backTitle}
+                </Typography>
+                <Typography variant="body2" className="card-date">
+                  {date}
+                </Typography>
+              </Box>
+              <Typography variant="body2" className="card-description">
+                {backDescription}
               </Typography>
-            </Box>
-            <Typography variant="body2" className="card-description">
-              {description}
-            </Typography>
-          </CardContent>
-        </Card>
-        
+            </CardContent>
+          </Card>
+        </div>
       </animated.div>
     </div>
   );
