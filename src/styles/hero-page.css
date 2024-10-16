@@ -110,6 +110,19 @@
   color: black;
 }
 
+
+
+@media (max-width: 1500px) {
+  .wrapper {
+      margin-top: 3em;
+  }
+
+  .text-container button {
+    margin-top: 1.5em;
+  }
+}
+
+
 @media (max-width: 600px) {
   .img-container img {
     display: none;
