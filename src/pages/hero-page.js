@@ -3,6 +3,7 @@ import { useSpring, animated } from 'react-spring';
 import { useTranslation } from 'react-i18next';
 import IconMarquee from '../components/slide';
 import '../styles/hero-page.css';
+import SpringButton from '../components/springButton';
 
 const HeroSection = () => {
   const { t } = useTranslation();
@@ -41,7 +42,7 @@ const HeroSection = () => {
           <span className='ale-span'>Alexandre Rodrigues</span> 👋
         </animated.h1>
         <p>{t('developer_title')}</p>
-        <button><a href='#contato'>{t('cta')}</a></button>
+        <SpringButton/>
       </div>
 
       <div className='billboard'>
