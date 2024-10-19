@@ -5,7 +5,7 @@ import camisasTop from '../assets/images/ecommerce.png'
 import { MdOutlineWebAssetOff, MdOutlineWebAsset } from "react-icons/md";
 import { techIcons1, techIcons2, techIcons3, iconColors1, iconColors2, iconColors3, techIcons4, iconColors4, techIcons5, iconColors5, techIcons6, iconColors6 } from '../components/techStack';
 import opencvImg from '../assets/images/OPENCV.png'
-import dueljj from '../assets/images/duelljjCUstom.png'
+import urlShortner from '../assets/images/urlShortner.png'
 import terminalEmul from '../assets/images/terminal.png'
 import presentationImg from '../assets/images/presentationImg.png'
 import aluraLanding from '../assets/images/aluraLanding.png'
@@ -17,11 +17,12 @@ const ProjectsSection = (props) => {
   const project1GitUrl = 'https://github.com/ardszsantos/ecommerce-store';
   const project2GitUrl = 'https://github.com/ardszsantos/aluralivros';
   const project3GitUrl = 'https://github.com/ardszsantos/CV-Macro';
-  const project4GitUrl = 'https://github.com/ardszsantos/dueljj-custom';
+  const project4GitUrl = 'https://github.com/ardszsantos/urlShortner-front/tree/production';
   const project5GitUrl = 'https://github.com/ardszsantos/terminal-html';
   const project6GitUrl = 'https://github.com/ardszsantos/presentation-page';
   const project1Demo = 'https://fredbola.com.br';
   const project2Demo = 'https://ardszsantos.github.io/aluralivros/';
+  const project4Demo = 'https://urlshortner-front.onrender.com/';
   const project5Demo = 'https://terminal-html-qp9by7bpl-fredaobobs-projects.vercel.app/';
   const project6Demo = 'https://ardszsantos.github.io/presentation-page/';
 
@@ -41,6 +42,7 @@ const ProjectsSection = (props) => {
               pageUrl={project1Demo}
               techIcons={techIcons1}
               iconColors={iconColors1}
+              date={'07/24'}
             />
 
             <ProjectCard
@@ -53,6 +55,7 @@ const ProjectsSection = (props) => {
               pageUrl={project2Demo}
               techIcons={techIcons2}
               iconColors={iconColors2}
+              date={'06/23'}
             />
 
             <ProjectCard
@@ -64,18 +67,21 @@ const ProjectsSection = (props) => {
               gitUrl={project3GitUrl}
               techIcons={techIcons3}
               iconColors={iconColors3}
+              date={'01/24'}
             />
           </div>
           <div className="projects-container">
             <ProjectCard
-              imgUrl={dueljj}
+              imgUrl={urlShortner}
               title={t('project4_title')}
               description={t('project4_description')}
               detailedDescription={t('project4_detailed_description')}
-              iconComponent={noWebIcon}
+              iconComponent={webIcon}
               gitUrl={project4GitUrl}
+              pageUrl={project4Demo}
               techIcons={techIcons4}
               iconColors={iconColors4}
+              date={'10/24'}
             />
 
             <ProjectCard
@@ -88,6 +94,7 @@ const ProjectsSection = (props) => {
               pageUrl={project5Demo}
               techIcons={techIcons5}
               iconColors={iconColors5}
+              date={'05/24'}
             />
 
             <ProjectCard
@@ -100,6 +107,7 @@ const ProjectsSection = (props) => {
               pageUrl={project6Demo}
               techIcons={techIcons6}
               iconColors={iconColors6}
+              date={'09/24'}
             />
           </div>
         </div>

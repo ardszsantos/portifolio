@@ -1,5 +1,5 @@
 import { FaReact, FaStripe } from 'react-icons/fa';
-import { SiNextdotjs, SiTailwindcss, SiPrisma, SiMysql, SiCloudinary, SiTypescript, SiZod, SiClerk, SiOpencv, SiPython, SiNumpy, SiWindows, SiLinux, SiShell, SiSass, SiJavascript, SiHtml5, SiJquery, SiCss3 } from 'react-icons/si';
+import { SiNextdotjs, SiTailwindcss, SiPrisma, SiMysql, SiCloudinary, SiTypescript, SiZod, SiClerk, SiOpencv, SiPython, SiNumpy, SiWindows, SiSass, SiJavascript, SiHtml5, SiJquery, SiCss3, SiReact, SiBootstrap, SiNestjs, SiSwagger, SiTypeorm } from 'react-icons/si';
 
 export const techIcons1 = [
   { component: FaReact, name: 'React' },
@@ -69,15 +69,21 @@ export const iconColors3 = [
 ];
 
 export const techIcons4 = [
-  { component: SiLinux, name: 'Linux' },
-  { component: SiShell, name: 'Shell' }
+  { component: SiReact, name: 'React.js' },
+  { component: SiBootstrap, name: 'Bootstrap' },
+  { component: SiNestjs, name: 'NestJS' },
+  { component: SiMysql, name: 'MySQL' },
+  { component: SiSwagger, name: 'Swagger' },
+  { component: SiTypeorm, name: 'TypeORM' }
 ];
 
-
 export const iconColors4 = [
-  '#5C3EE8',  // OpenCV
-  '#FFD43B',  // Python
-
+  '#61DAFB',  // React.js
+  '#7952B3',  // Bootstrap
+  '#E0234E',  // NestJS
+  '#4479A1',  // MySQL
+  '#85EA2D',  // Swagger
+  '#FF5733',  // TypeORM
 ];
 
 

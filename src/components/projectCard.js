@@ -6,7 +6,7 @@ import { FaGithub, FaInfoCircle,  } from "react-icons/fa";  // Import the tool i
 
 Modal.setAppElement('#root');
 
-const ProjectCard = ({ imgUrl, title, description, detailedDescription, iconComponent, gitUrl, pageUrl, techIcons, iconColors }) => {
+const ProjectCard = ({ imgUrl, title, description, detailedDescription, iconComponent, gitUrl, pageUrl, techIcons, iconColors, date }) => {
   const [modalIsOpen, setModalIsOpen] = useState(false);
 
   const openModal = () => setModalIsOpen(true);
@@ -19,7 +19,7 @@ const ProjectCard = ({ imgUrl, title, description, detailedDescription, iconComp
         <div className='desc-group'>
           <div className='upper-card'>
             <h2>{title}</h2>
-            <p>20xx - 20xx</p>
+            <p>{date}</p>
           </div>
           <p>{description}</p>
         </div>
