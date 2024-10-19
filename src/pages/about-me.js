@@ -1,9 +1,10 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import '../styles/about-me.css';
-import kubuntu from '../assets/images/kubuntu-svgrepo-com.svg';
+import manjaro from '../assets/images/manjaro-svgrepo-com.svg';
 import web from '../assets/images/web-svgrepo-com.svg';
-import CardComponent from '../components/card';
+import ManjaroCardComponent from '../components/manjaro-card';
+import WebCardComponent from '../components/web-card';
 
 import { FaReact, FaPython, FaGitAlt, FaNodeJs, FaJsSquare, FaHtml5, FaCss3Alt, FaDocker, FaVuejs, FaPhp, FaSass, FaFigma } from 'react-icons/fa';
 import { SiTailwindcss, SiNextdotjs, SiLinux, SiDjango, SiFlask, SiMysql, SiMongodb, SiTypescript } from 'react-icons/si';
@@ -11,7 +12,6 @@ import { SiTailwindcss, SiNextdotjs, SiLinux, SiDjango, SiFlask, SiMysql, SiMong
 
 const AboutSection = (props) => {
   const { t } = useTranslation();
-
 
   return (
     <div {...props} id='about' className='wrapper-two'>
@@ -25,12 +25,12 @@ const AboutSection = (props) => {
         </div>
         <h2 className='interesses'>{t('interests_title')}</h2>
         <div className='about-cards'>
-          <CardComponent
-            img={kubuntu}
+          <ManjaroCardComponent
+            img={manjaro}
             title={t('linux_interest_title')}
             subtitle={t('linux_interest_description')}
           />
-          <CardComponent
+          <WebCardComponent
             img={web}
             title={t('web_dev_interest_title')}
             subtitle={t('web_dev_interest_description')}
