@@ -20,10 +20,20 @@
   margin-bottom: 8px;
 }
 
-.card-subtitle {
+.card-subtitle, .card-subtitle-2 {
   font-size: 1rem;
   color: #666;
   text-align: center;
+  transition: color 0.3s ease-in-out;
+
+}
+
+.card:hover .card-subtitle {
+  color: black;
+}
+
+.card:hover .card-subtitle-2 {
+  color: white;
 }
 
 
