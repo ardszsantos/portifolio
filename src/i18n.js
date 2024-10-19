@@ -87,9 +87,9 @@ const resources = {
       "project3_description": "Automation using computer vision. Recognizes images and executes actions.",
       "project3_detailed_description": "An automation tool utilizing OpenCV to recognize objects and trigger automated responses, suitable for a variety of use cases in image recognition.",
 
-      "project4_title": "DuellJJ - Custom Theme",
-      "project4_description": "Custom zsh theme for my kitty-terminal",
-      "project4_detailed_description": "A custom theme designed for a terminal emulator, tailored to enhance readability and provide a sleek developer experience.",
+      "project4_title": "URL Shortener",
+      "project4_description": "A simple URL shortener.",
+      "project4_detailed_description": "This project uses React and Bootstrap on the front end to create a simple, responsive user interface. On the back end, NestJS is used with TypeORM for database management, leveraging MySQL hosted on Aiven. The project also integrates Swagger for automatic API documentation, making it easier to view and use routes. The shortener allows users to input long URLs and get shortened URLs with immediate redirection.",
 
       "project5_title": "Terminal Page",
       "project5_description": "Web-Terminal.",
@@ -197,9 +197,9 @@ const resources = {
       "project3_description": "Automação utilizando visão computacional. Reconhece imagens e executa ações.",
       "project3_detailed_description": "Ferramenta de automação que utiliza OpenCV para reconhecer objetos e acionar respostas automáticas, adequada para uma variedade de casos de uso em reconhecimento de imagens.",
 
-      "project4_title": "DuellJJ - Tema Custom",
-      "project4_description": "Tema de customização para o meu terminal",
-      "project4_detailed_description": "Tema customizado projetado para um emulador de terminal, aprimorando a legibilidade e proporcionando uma experiência de desenvolvimento elegante.",
+      "project4_title": "Encurtador de URL",
+      "project4_description": "Um encurtador de URL simples.",
+      "project4_detailed_description": "Este projeto utiliza React e Bootstrap no front-end para criar uma interface de usuário simples e responsiva. No back-end, é utilizado NestJS com TypeORM para gerenciamento de banco de dados, utilizando MySQL hospedado na Aiven. O projeto também integra Swagger para documentação automática da API, facilitando o uso e a visualização das rotas. O encurtador permite que os usuários insiram URLs longas e obtenham URLs curtas com redirecionamento imediato.",
 
       "project5_title": "Página Terminal",
       "project5_description": "Emulação de um terminal na web.",
