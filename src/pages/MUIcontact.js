@@ -48,7 +48,7 @@ const ContactSection = (props) => {
             <Typography>{t('contact_email')}</Typography>
           </Link>
           <Link
-            href="#your-instagram-link"
+            href="https://www.instagram.com/ards2333/"
             sx={{
               display: 'flex',
               alignItems: 'center',
@@ -64,7 +64,7 @@ const ContactSection = (props) => {
             <Typography>{t('contact_instagram')}</Typography>
           </Link>
           <Link
-            href="#your-discord-link"
+            href="https://discord.com/"
             sx={{
               display: 'flex',
               alignItems: 'center',
