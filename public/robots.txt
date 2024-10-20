@@ -1,3 +1,14 @@
-# https://www.robotstxt.org/robotstxt.html
 User-agent: *
 Disallow:
+
+# Allow all crawlers full access to your site
+
+# Specify the location of the sitemap to help crawlers discover more pages
+Sitemap: https://yourwebsite.com/sitemap.xml
+
+# Optionally limit specific areas (uncomment and modify if needed)
+# Disallow: /admin/
+# Disallow: /private/
+
+# Rate limiting for crawlers (optional, uncomment if required)
+# Crawl-delay: 10  # Limits how frequently crawlers hit your server (in seconds)
