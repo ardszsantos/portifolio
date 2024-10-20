@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import '../styles/about-me.css';
-import manjaro from '../assets/images/manjaro-svgrepo-com.svg';
+import suse from '../assets/images/suse-svgrepo-com.svg';
 import web from '../assets/images/web-svgrepo-com.svg';
 import ManjaroCardComponent from '../components/manjaro-card';
 import WebCardComponent from '../components/web-card';
@@ -26,7 +26,7 @@ const AboutSection = (props) => {
         <h2 className='interesses'>{t('interests_title')}</h2>
         <div className='about-cards'>
           <ManjaroCardComponent
-            img={manjaro}
+            img={suse}
             title={t('linux_interest_title')}
             subtitle={t('linux_interest_description')}
           />
