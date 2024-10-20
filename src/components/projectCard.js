@@ -26,7 +26,7 @@ const ProjectCard = ({ imgUrl, title, description, detailedDescription, iconComp
         <div className='project-info'>
           <a rel='noreferrer' href={pageUrl} target='_blank'>Demo {iconComponent}</a>
           <a rel='noreferrer' href={gitUrl} target='_blank'>Repo <FaGithub /></a>
-          <span className='info-icon' href=' '  onClick={openModal} > Info<FaInfoCircle/></span>
+          <span className='info-icon' onClick={openModal} > Info<FaInfoCircle/></span>
         </div>
       </div>
 
