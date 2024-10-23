@@ -73,7 +73,7 @@
 @media (max-width: 1500px) {
   .projectCardContainer {
     height: 7.5em;
-    width: 400px;
+    width: 480px;
   }
 
   .projectCardContainer:hover {
