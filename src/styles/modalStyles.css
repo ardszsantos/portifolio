@@ -175,6 +175,7 @@
   .modal-content {
     width: 60%;
     padding: 40px;
+    margin-top: 3em;
   }
 
   .modal-flex-container {
