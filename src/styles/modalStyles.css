@@ -5,6 +5,7 @@
   right: 0;
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.15);
+  user-select: none;
 }
 
 .modal-content {
@@ -14,8 +15,7 @@
   right: auto;
   bottom: auto;
   transform: translate(-50%, -50%);
-  background-color: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.02);
   padding: 40px;
   border-radius: 10px;
   color: white;
@@ -24,6 +24,21 @@
 
 .modal-close-btn {
   float: right;
+  background-color: transparent;
+  border: none;
+  color: white;
+  background-color: purple;
+  border-radius: 100%;
+  width: 20px;
+  display: flex;
+  align-items: center;
+  height: 20px;
+  opacity: 50%;
+  transition: 0.2s ease-in-out;
+}
+
+.modal-close-btn:hover {
+  transform: scale(1.5);
 }
 
 .modal-flex-container {
