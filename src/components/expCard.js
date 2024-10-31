@@ -18,7 +18,7 @@ const ExpCard = ({ title, description, image, date, backTitle, backDescription }
     <div
       onMouseEnter={() => setFlipped(true)}
       onMouseLeave={() => setFlipped(false)}
-      style={{ perspective: '1000px' }}
+      style={{ perspective: '21000px',  }}
     >
       <animated.div
         style={{
