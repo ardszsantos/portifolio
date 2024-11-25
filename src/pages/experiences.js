@@ -12,7 +12,7 @@ const ExperiencesSection = (props) => {
         <h1>{t('experiences-title')}</h1>
         <div className="card-div">
           <ExpCard
-            image={'https://upload.wikimedia.org/wikipedia/commons/8/8c/SENAI_S%C3%A3o_Paulo_logo.png'}
+            image={'https://files.passeidireto.com/d1b62efc-eaab-4f0d-b402-a9a3c20eb734/bg1.png'}
             title={t('experiences-senaiTitle')}
             description={t('experiences-senaiDescription')}
             date={t('experiences-senaiDate')}
@@ -21,7 +21,7 @@ const ExperiencesSection = (props) => {
             backDescription={t('experiences-senaiDescription-back')}
           />
           <ExpCard
-            image={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVRU8sOl-pLVoZGWBODPTy-56PeVXMd-gglQ&s'}
+            image={'https://docs.temporal.io/assets/images/banner-python-temporal-0d345d125b6892840c54f7e1460c8a5a.png'}
             title={t('experiences-ebacTitle')}
             description={t('experiences-ebacDescription')}
             date={t('experiences-ebacDate')}
