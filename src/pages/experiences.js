@@ -30,7 +30,7 @@ const ExperiencesSection = (props) => {
             backDescription={t('experiences-ebacDescription-back')}
           />
           <ExpCard
-            image={'https://verpex.com/assets/uploads/images/blog/How-to-become-a-Backend-Developer.jpg?v=1665484477'}
+            image={'https://media.licdn.com/dms/image/v2/D4D3DAQGQN2qteLzGzw/image-scale_191_1128/image-scale_191_1128/0/1729534555269/code_trouble_cover?e=1733155200&v=beta&t=lyUQD-TgLSoeElqdb5Aws41WXblM_RH5DvL7-vncsG8'}
             title={t('experiences-codeTroubleTitle')}
             description={t('experiences-codeTroubleDescription')}
             date={t('experiences-codeTroubleDate')}
