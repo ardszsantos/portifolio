@@ -12,6 +12,7 @@ const ExpCard = ({ title, description, image, date, backTitle, backDescription }
 
   const { transform } = useSpring({
     transform: `rotateY(${flipped ? 180 : 0}deg)`,
+    config: { duration: 400 },
   });
 
   return (
