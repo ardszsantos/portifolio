@@ -58,12 +58,12 @@ const resources = {
       "experiences-ebacTitle-back": "Full Stack Python Course",
       "experiences-ebacDescription-back": "The Full Stack Python course at EBAC provided comprehensive training in front-end and back-end development. I gained expertise in HTML, CSS, and JavaScript for building responsive interfaces, as well as mastering Python for server-side logic. The course covered database management, API development and integration, and the creation of scalable, real-world applications. I also worked on multiple full-stack projects that reinforced these skills, preparing me to deliver professional solutions in a variety of tech environments.",  
 
-
-      "experiences-codeTroubleTitle": "Back-End Development - Code Trouble",
-      "experiences-codeTroubleDescription": "Volunteer in the development of the back-end of a collaborative platform similar to Stack Overflow. Using NestJS and Swagger for robust and documented APIs.",
+      "experiences-codeTroubleTitle": "Full-Stack Development - Code Trouble",
+      "experiences-codeTroubleDescription": "Volunteer in the development of a collaborative platform similar to Stack Overflow. I work on both front-end and back-end, using technologies like React, NestJS, and TypeORM.",
       "experiences-codeTroubleDate": "2024 - Present",
-      "experiences-codeTroubleTitle-back": "Back-End Development ",
-      "experiences-codeTroubleDescription-back": "In the back-end development of Code Trouble, I worked on analyzing the relationships between the application data and contributed to the creation of the database on Aiven, using TypeORM to connect it with NestJS. I helped build the essential entities of the application, ensuring proper data structure. Currently, we are exploring the deployment process on Beanstalk, gradually moving forward with the implementation of the project's features.",
+      "experiences-codeTroubleTitle-back": "Full-Stack Development",
+      "experiences-codeTroubleDescription-back": "At Code Trouble, I work on full-stack development, contributing to database structuring with TypeORM and Aiven, and building robust APIs with NestJS. On the front-end, I develop interfaces using React, ensuring a functional and intuitive user experience. I also collaborate on API documentation with Swagger and the deployment process on Beanstalk, ensuring efficient delivery of project features.",
+
 
       "experiences-aluraTitle": "Courses Completed - Alura",
       "experiences-aluraDescription": "I have completed over 20 courses on the Alura platform, including development areas such as Python, JavaScript, HTML, CSS, Machine Learning, and more. See all the courses in the attached image.",
@@ -170,11 +170,11 @@ const resources = {
       "experiences-ebacTitle-back": "Curso Full Stack Python",
       "experiences-ebacDescription-back": "O curso Full Stack Python da EBAC proporcionou uma formação completa em desenvolvimento front-end e back-end. Dominei HTML, CSS e JavaScript para a construção de interfaces responsivas, além de Python para lógica de servidor. O curso abrangeu gerenciamento de bancos de dados, desenvolvimento e integração de APIs e a criação de aplicações escaláveis em cenários reais. Trabalhei em diversos projetos full-stack que reforçaram essas habilidades, preparando-me para entregar soluções profissionais em diferentes ambientes de tecnologia.",
     
-      "experiences-codeTroubleTitle": "Desenvolvimento Back-End - Code Trouble",
-      "experiences-codeTroubleDescription": "Voluntário no desenvolvimento do back-end de uma plataforma colaborativa estilo Stack Overflow. Usando NestJS e Swagger para APIs robustas e documentadas.",
-      "experiences-codeTroubleDate": "2024 - Presente",
-      "experiences-codeTroubleTitle-back": "Desenvolvimento Back-End",
-      "experiences-codeTroubleDescription-back": "No desenvolvimento do back-end do Code Trouble, trabalhei na análise das relações entre os dados da aplicação e participei da criação do banco de dados na Aiven, utilizando o TypeORM para conectá-lo ao NestJS. Contribuí para a criação das entidades essenciais da aplicação, garantindo a estrutura adequada dos dados. Atualmente, estamos explorando o processo de deploy no Beanstalk, avançando gradualmente na implementação das funcionalidades do projeto.",
+    "experiences-codeTroubleTitle": "Desenvolvimento Full-Stack - Code Trouble",
+    "experiences-codeTroubleDescription": "Voluntário no desenvolvimento de uma plataforma colaborativa estilo Stack Overflow. Trabalho no front-end e back-end, utilizando tecnologias como React, NestJS e TypeORM.",
+    "experiences-codeTroubleDate": "2024 - Presente",
+    "experiences-codeTroubleTitle-back": "Desenvolvimento Full-Stack",
+    "experiences-codeTroubleDescription-back": "No Code Trouble, atuo no desenvolvimento full-stack, contribuindo para a estruturação do banco de dados com TypeORM e Aiven, e na criação de APIs robustas com NestJS. No front-end, desenvolvo interfaces utilizando React, garantindo uma experiência de usuário funcional e intuitiva. Também colaboro na documentação das APIs com Swagger e no processo de deploy no Beanstalk, assegurando a entrega eficiente das funcionalidades.",
 
       "experiences-aluraTitle": "Cursos Completados - Alura",
       "experiences-aluraDescription": "Completei mais de 20 cursos na plataforma Alura, incluindo áreas de desenvolvimento como Python, JavaScript, HTML, CSS, Machine Learning, e mais. Veja todos os cursos na imagem anexa.",
