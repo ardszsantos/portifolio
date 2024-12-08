@@ -66,10 +66,10 @@ const resources = {
 
 
       "experiences-aluraTitle": "Courses Completed - Alura",
-      "experiences-aluraDescription": "I have completed over 20 courses on the Alura platform, including development areas such as Python, JavaScript, HTML, CSS, Machine Learning, and more. See all the courses in the attached image.",
+      "experiences-aluraDescription": "I have completed a lot of courses on the Alura platform, including development areas such as Python, JavaScript, HTML, CSS, GO, C and more.",
       "experiences-aluraDate": "2023 - Present",
       "experiences-aluraTitle-back": "Alura Courses",
-      "experiences-aluraDescription-back": "The Alura courses provided me with a strong foundation in web development, including HTML, CSS, JavaScript, and PHP. I completed modules covering everything from basic structure and responsiveness to more advanced topics such as DOM manipulation, object-oriented programming, and creating dynamic pages with JavaScript. I also gained knowledge in Python, with a focus on data science, and Machine Learning using SKLearn. Additionally, I explored Arduino programming and web development environments, further deepening my understanding of building dynamic and scalable applications.",
+      "experiences-aluraDescription-back": "The Alura courses provided me with a strong foundation in web development, including HTML, CSS and JavaScript. I completed modules covering everything from basic structure and responsiveness to more advanced topics such as DOM manipulation, object-oriented programming, and creating dynamic pages with JavaScript. I also gained knowledge in Python, with a focus on data science, and Machine Learning using SKLearn. Additionally, I explored Arduino programming and web development environments, further deepening my understanding of building dynamic and scalable applications.",
 
 
 
@@ -177,10 +177,10 @@ const resources = {
     "experiences-codeTroubleDescription-back": "No Code Trouble, atuo no desenvolvimento full-stack, contribuindo para a estruturação do banco de dados com TypeORM e Aiven, e na criação de APIs robustas com NestJS. No front-end, desenvolvo interfaces utilizando React, garantindo uma experiência de usuário funcional e intuitiva. Também colaboro na documentação das APIs com Swagger e no processo de deploy no Beanstalk, assegurando a entrega eficiente das funcionalidades.",
 
       "experiences-aluraTitle": "Cursos Completados - Alura",
-      "experiences-aluraDescription": "Completei mais de 20 cursos na plataforma Alura, incluindo áreas de desenvolvimento como Python, JavaScript, HTML, CSS, Machine Learning, e mais. Veja todos os cursos na imagem anexa.",
+      "experiences-aluraDescription": "Concluí diversos cursos na plataforma Alura, incluindo áreas de desenvolvimento como Python, JavaScript, HTML, CSS, GO, C entre outros.",
       "experiences-aluraDate": "2023 - Presente",
       "experiences-aluraTitle-back": "Cursos Completados",
-      "experiences-aluraDescription-back": "Os cursos da Alura proporcionaram uma sólida base em desenvolvimento web, incluindo HTML, CSS, JavaScript e PHP. Completei módulos que abordaram desde conceitos básicos de estrutura e responsividade até tópicos mais avançados como manipulação do DOM, programação orientada a objetos e a criação de páginas dinâmicas com JavaScript. Também adquiri conhecimentos em Python, com foco em ciência de dados, e Machine Learning utilizando SKLearn. Além disso, tive contato com programação de Arduino e ambientes de desenvolvimento web, aprofundando meu entendimento na criação de aplicações dinâmicas e escaláveis.",
+      "experiences-aluraDescription-back": "Os cursos da Alura proporcionaram uma sólida base em desenvolvimento web, incluindo HTML, CSS e JavaScript. Completei módulos que abordaram desde conceitos básicos de estrutura e responsividade até tópicos mais avançados como manipulação do DOM, programação orientada a objetos e a criação de páginas dinâmicas com JavaScript. Também adquiri conhecimentos em Python, com foco em ciência de dados, e Machine Learning utilizando SKLearn. Além disso, tive contato com programação de Arduino e ambientes de desenvolvimento web, aprofundando meu entendimento na criação de aplicações dinâmicas e escaláveis.",
 
 
       // Projetos
