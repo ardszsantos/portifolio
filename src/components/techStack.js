@@ -1,5 +1,5 @@
-import { FaReact, FaStripe } from 'react-icons/fa';
-import { SiNextdotjs, SiTailwindcss, SiPrisma, SiMysql, SiCloudinary, SiTypescript, SiZod, SiClerk, SiOpencv, SiPython, SiNumpy, SiWindows, SiSass, SiJavascript, SiHtml5, SiJquery, SiCss3, SiReact, SiBootstrap, SiNestjs, SiSwagger, SiTypeorm } from 'react-icons/si';
+import { FaReact, FaStripe, FaWpforms } from 'react-icons/fa';
+import { SiNextdotjs, SiTailwindcss, SiPrisma, SiMysql, SiCloudinary, SiTypescript, SiZod, SiClerk, SiOpencv, SiPython, SiNumpy, SiWindows, SiSass, SiJavascript, SiHtml5, SiJquery, SiCss3, SiReact, SiBootstrap, SiNestjs, SiSwagger, SiTypeorm, SiVite, SiFramer, SiReactrouter } from 'react-icons/si';
 
 export const techIcons1 = [
   { component: FaReact, name: 'React' },
@@ -27,31 +27,26 @@ export const iconColors1 = [
   '#FF6347'     // Zod
 ];
 
-// Tech Stack for ecommerce-admin
 export const techIcons2 = [
   { component: FaReact, name: 'React' },
-  { component: SiNextdotjs, name: 'Next.js' },
+  { component: SiVite, name: 'Vite' },
   { component: SiTypescript, name: 'TypeScript' },
-  { component: SiTailwindcss, name: 'Tailwind CSS' },
-  { component: SiPrisma, name: 'Prisma' },
-  { component: SiMysql, name: 'MySQL' },
-  { component: FaStripe, name: 'Stripe' },
-  { component: SiClerk, name: 'Clerk' }
+  { component: SiSass, name: 'Sass' },
+  { component: SiFramer, name: 'Framer Motion' },
+  { component: SiReactrouter, name: 'React Router' },
+  { component: FaWpforms, name: 'React Hook Form' },
 ];
-
 
 export const iconColors2 = [
   '#61DAFB',    // React
-  '#000000',    // Next.js
+  '#646cff',    // Vite
   '#007ACC',    // TypeScript
-  '#38B2AC',    // Tailwind CSS
-  '#2D3748',    // Prisma
-  '#00758F',    // MySQL
-  '#008CDD',    // Stripe
-  '#3A3A3A',    // Clerk
-  '#E07B00'     // Zustand
+  '#CC6699',    // Sass
+  '#0ACF83',    // Framer Motion
+  '#CA4245',    // React Router
+  '#EC5990',    // React Hook Form
+  '#4A90E2'     // React Quill
 ];
-
 // Tech Stack for CV-Macro
 export const techIcons3 = [
   { component: SiOpencv, name: 'OpenCV' },
@@ -88,16 +83,15 @@ export const iconColors4 = [
 
 
 export const techIcons5 = [
-  { component: SiJquery, name: 'jQuery' },
-  { component: SiCss3, name: 'CSS3' },
-  { component: SiHtml5, name: 'HTML5' }
+  { component: SiNextdotjs, name: 'Next.js' },
+  { component: SiReact, name: 'React' },
+  { component: SiTailwindcss, name: 'Tailwind CSS' }
 ];
 
-
 export const iconColors5 = [
-  '#5C3EE8',  // OpenCV
-  '#264DE4',
-  '#E34C26'
+  '#000000',  // Next.js (black)
+  '#61DAFB',  // React (blue)
+  '#38B2AC'   // Tailwind CSS (teal)
 ];
 
 
