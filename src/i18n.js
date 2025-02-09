@@ -79,11 +79,11 @@ const resources = {
       "project1_description": "Full-Stack E-Commerce Store, made to sell any product.",
       "project1_detailed_description": "A complete e-commerce platform with both front-end and back-end implementation, providing features like product management, cart, and payment integration for seamless user experience.",
 
-      "project2_title": "Alura Books",
-      "project2_description": "Front end for an E-Book Store.",
-      "project2_detailed_description": "A responsive front-end design for a book store that showcases an intuitive UI, focusing on ease of navigation and book display.",
-
-      "project3_title": "Open-Cv Automation",
+      "project2_title": "Code Trouble Web - WIP",
+      "project2_description": "A modern, interactive front-end application built to help developers manage and resolve code issues efficiently.",
+      "project2_detailed_description": "Code Trouble leverages a contemporary tech stack—React, Vite, and TypeScript for structure and performance, Sass for styling, and Framer Motion for smooth animations—to create a fast, responsive, and visually engaging user experience. With robust form handling via React Hook Form and rich text editing powered by React Quill, Code Trouble streamlines the process of reporting and tracking coding problems, making it easier for teams to collaborate on debugging and improving their codebases.",   
+      
+      "project3_title": "OpenCv Automation",
       "project3_description": "Automation using computer vision. Recognizes images and executes actions.",
       "project3_detailed_description": "An automation tool utilizing OpenCV to recognize objects and trigger automated responses, suitable for a variety of use cases in image recognition.",
 
@@ -91,14 +91,13 @@ const resources = {
       "project4_description": "A simple URL shortener.",
       "project4_detailed_description": "This project uses React and Bootstrap on the front end to create a simple, responsive user interface. On the back end, NestJS is used with TypeORM for database management, leveraging MySQL hosted on Aiven. The project also integrates Swagger for automatic API documentation, making it easier to view and use routes. The shortener allows users to input long URLs and get shortened URLs with immediate redirection.",
 
-      "project5_title": "Terminal Page",
-      "project5_description": "Web-Terminal.",
-      "project5_detailed_description": "A browser-based terminal emulator that replicates the functionality of a command-line interface within a web environment, providing a real terminal experience.",
+      "project5_title": "Corinthians Panel",
+      "project5_description": "Page with news about Corinthians using newsapi.org",
+      "project5_detailed_description": "A simple page that displays news about Corinthians, using the NewsAPI to get the latest news and display them in a clean and responsive layout.",
 
-      "project6_title": "Presentation Page",
-      "project6_description": "Modern website made to present myself.",
-      "project6_detailed_description": "A portfolio website designed with a modern aesthetic to showcase personal projects and skills, built with attention to responsiveness and user engagement.",
-
+      "project6_title": "Personal Presentation",
+      "project6_description": "Page with information about me.",
+      "project6_detailed_description": "Page made with the objective of presenting myself.",
 
       // Footer Section (new translations)
       "footer_all_rights": "All rights reserved.",
@@ -189,11 +188,11 @@ const resources = {
       "project1_description": "Loja online Full-Stack, feita para a veda de qualquer produto.",
       "project1_detailed_description": "Uma plataforma completa de e-commerce, com implementação de front-end e back-end, oferecendo recursos como gerenciamento de produtos, carrinho e integração de pagamentos para uma experiência de usuário fluida.",
 
-      "project2_title": "Alura Livros",
-      "project2_description": "Front-End de uma loja de livros.",
-      "project2_detailed_description": "Design responsivo para uma loja de livros com UI intuitiva, focada na facilidade de navegação e exibição de livros.",
+      "project2_title": "Code Trouble Web - WIP",
+      "project2_description": "Uma aplicação front-end moderna e interativa criada para ajudar desenvolvedores a gerenciar e resolver problemas de código de forma eficiente.",
+      "project2_detailed_description": "O Code Trouble utiliza uma stack tecnológica contemporânea — React, Vite e TypeScript para estrutura e desempenho, Sass para estilização, e Framer Motion para animações suaves — para criar uma experiência de usuário rápida, responsiva e visualmente envolvente. Com um gerenciamento robusto de formulários via React Hook Form e edição de texto enriquecido com React Quill, o Code Trouble simplifica o processo de relatar e rastrear problemas de código, facilitando a colaboração entre equipes na depuração e melhoria de suas bases de código.",
 
-      "project3_title": "Automação com Open-Cv",
+      "project3_title": "Automação com OpenCv",
       "project3_description": "Automação utilizando visão computacional. Reconhece imagens e executa ações.",
       "project3_detailed_description": "Ferramenta de automação que utiliza OpenCV para reconhecer objetos e acionar respostas automáticas, adequada para uma variedade de casos de uso em reconhecimento de imagens.",
 
@@ -201,13 +200,13 @@ const resources = {
       "project4_description": "Um encurtador de URL simples.",
       "project4_detailed_description": "Este projeto utiliza React e Bootstrap no front-end para criar uma interface de usuário simples e responsiva. No back-end, é utilizado NestJS com TypeORM para gerenciamento de banco de dados, utilizando MySQL hospedado na Aiven. O projeto também integra Swagger para documentação automática da API, facilitando o uso e a visualização das rotas. O encurtador permite que os usuários insiram URLs longas e obtenham URLs curtas com redirecionamento imediato.",
 
-      "project5_title": "Página Terminal",
-      "project5_description": "Emulação de um terminal na web.",
-      "project5_detailed_description": "Emulador de terminal baseado em navegador que replica a funcionalidade de uma interface de linha de comando em um ambiente web, proporcionando uma experiência de terminal real.",
+      "project5_title": "Painel Corinthians",
+      "project5_description": "Página com notícias sobre o corinthians usando newsapi.org",
+      "project5_detailed_description": "Uma página simples que exibe notícias sobre o Corinthians, utilizando a API do NewsAPI para obter as últimas notícias e exibi-las em um layout limpo e responsivo.",
 
-      "project6_title": "Página de apresentação",
-      "project6_description": "Página moderna com objetivo de me apresentar.",
-      "project6_detailed_description": "Um site de portfólio moderno, projetado para exibir projetos pessoais e habilidades, construído com atenção à responsividade e ao engajamento do usuário.",
+      "project6_title": "Apresentação Pessoal",
+      "project6_description": "Página com informações sobre mim.",
+      "project6_detailed_description": "Página feita com o objetivo de me apresentar.",
 
       // Footer Section (new translations)
       "footer_all_rights": "Todos os direitos reservados.",
