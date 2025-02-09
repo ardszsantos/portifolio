@@ -6,24 +6,25 @@ import { MdOutlineWebAssetOff, MdOutlineWebAsset } from "react-icons/md";
 import { techIcons1, techIcons2, techIcons3, iconColors1, iconColors2, iconColors3, techIcons4, iconColors4, techIcons5, iconColors5, techIcons6, iconColors6 } from '../components/techStack';
 import opencvImg from '../assets/images/OPENCV.png'
 import urlShortner from '../assets/images/urlShortner.png'
-import terminalEmul from '../assets/images/terminal.png'
+import painelCorinthians from '../assets/images/painel.png'
 import presentationImg from '../assets/images/presentationImg.png'
-import aluraLanding from '../assets/images/aluraLanding.png'
+import cTrouble from '../assets/images/ctroublesmLogo.png'
+
 
 const ProjectsSection = (props) => {
   const { t } = useTranslation();
   const noWebIcon = <MdOutlineWebAssetOff />;
   const webIcon = <MdOutlineWebAsset />;
   const project1GitUrl = 'https://github.com/ardszsantos/ecommerce-store';
-  const project2GitUrl = 'https://github.com/ardszsantos/aluralivros';
+  const project2GitUrl = 'https://github.com/code-trouble/SD.Code-Trouble.Frontend';
   const project3GitUrl = 'https://github.com/ardszsantos/CV-Macro';
   const project4GitUrl = 'https://github.com/ardszsantos/urlShortner-front/tree/production';
-  const project5GitUrl = 'https://github.com/ardszsantos/terminal-html';
+  const project5GitUrl = 'https://github.com/ardszsantos/painel-corinthians';
   const project6GitUrl = 'https://github.com/ardszsantos/presentation-page';
-  const project1Demo = 'https://fredbola.com.br';
-  const project2Demo = 'https://ardszsantos.github.io/aluralivros/';
+  const project1Demo = 'https://ecommerce-store-fredaobobs-projects.vercel.app/';
+  const project2Demo = 'https://codetrouble.com.br/';
   const project4Demo = 'https://urlshortner-front.onrender.com/';
-  const project5Demo = 'https://terminal-html-qp9by7bpl-fredaobobs-projects.vercel.app/';
+  const project5Demo = 'https://painel-corinthians.vercel.app/';
   const project6Demo = 'https://ardszsantos.github.io/presentation-page/';
 
   return (
@@ -46,7 +47,7 @@ const ProjectsSection = (props) => {
             />
 
             <ProjectCard
-              imgUrl={aluraLanding}
+              imgUrl={cTrouble}
               title={t('project2_title')}
               description={t('project2_description')}
               detailedDescription={t('project2_detailed_description')}
@@ -67,7 +68,7 @@ const ProjectsSection = (props) => {
               gitUrl={project3GitUrl}
               techIcons={techIcons3}
               iconColors={iconColors3}
-              date={'01/24'}
+              date={'08/24'}
             />
           </div>
           <div className="projects-container">
@@ -85,7 +86,7 @@ const ProjectsSection = (props) => {
             />
 
             <ProjectCard
-              imgUrl={terminalEmul}
+              imgUrl={painelCorinthians}
               title={t('project5_title')}
               description={t('project5_description')}
               detailedDescription={t('project5_detailed_description')}
