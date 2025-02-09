@@ -7,12 +7,12 @@
   display: flex;
   gap: 20px;
   color: white;
-  transition: ease-in-out 0.30s;
+  transition: ease-in-out 0.10s;
   border: 1px solid gray;
 }
 
 .projectCardContainer:hover {
-  transform: scale(1.1);
+  transform: scale(1.01);
 }
 
 .upper-card {
