@@ -7,7 +7,7 @@ import ManjaroCardComponent from '../components/manjaro-card';
 import WebCardComponent from '../components/web-card';
 
 import { FaReact, FaPython, FaGitAlt, FaNodeJs, FaJsSquare, FaHtml5, FaCss3Alt, FaDocker, FaVuejs, FaPhp, FaSass, FaFigma } from 'react-icons/fa';
-import { SiTailwindcss, SiNextdotjs, SiLinux, SiDjango, SiFlask, SiMysql, SiMongodb, SiTypescript } from 'react-icons/si';
+import { SiTailwindcss, SiNextdotjs, SiLinux, SiDjango, SiFlask, SiMysql, SiMongodb, SiTypescript, SiSass, SiVite } from 'react-icons/si';
 
 
 const AboutSection = (props) => {
@@ -20,7 +20,7 @@ const AboutSection = (props) => {
         <div className='about-p'>
           <p>{t('about_me_description_1')} <span className='front-span'>{t('about_me_frontend')}</span>, {t('about_me_description_2')}
             <span className='fullstack-span'>{t('about_me_fullstack')}</span>  {t('about_me_description_3')}
-            <span className='python-span'>{t('about_me_python')}</span> {t('about_me_description_4')}
+            
           </p>
         </div>
         <h2 className='interesses'>{t('interests_title')}</h2>
@@ -41,27 +41,27 @@ const AboutSection = (props) => {
         <h2>main skills</h2>
         <div className='skills-icons'>
           <div className='icon'>
+            <SiTypescript size={50} color='#3178C6' />
+            <p>TypeScript</p>
+          </div>
+          <div className='icon'>
             <FaJsSquare size={50} color='#F7DF1E' />
             <p>JavaScript</p>
           </div>
           <div className='icon'>
-            <FaHtml5 size={50} color='#E34F26' />
-            <p>HTML</p>
+            <SiSass size={50} color='#CD6799' />
+            <p>Sass</p>
           </div>
           <div className='icon'>
-            <FaCss3Alt size={50} color='#1572B6' />
-            <p>CSS</p>
-          </div>
-          <div className='icon'>
-            <FaPython size={50} color='#3776AB' />
-            <p>Python</p>
+            <SiVite size={50} color='#646CFF' />
+            <p>Vite</p>
           </div>
           <div className='icon'>
             <FaGitAlt size={50} color='#F05032' />
             <p>Git</p>
           </div>
           <div className='icon'>
-            <FaReact size={50} color='#61DBFB' />
+            <FaReact size={50} color='#61DAFB' />
             <p>React</p>
           </div>
           <div className='icon'>
@@ -73,6 +73,7 @@ const AboutSection = (props) => {
             <p>Figma</p>
           </div>
         </div>
+
 
         <h2>currently learning</h2>
         <div className='skills-icons'>
