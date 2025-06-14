@@ -1,5 +1,6 @@
 import { FaReact, FaStripe, FaWpforms } from 'react-icons/fa';
-import { SiNextdotjs, SiTailwindcss, SiPrisma, SiMysql, SiCloudinary, SiTypescript, SiZod, SiClerk, SiOpencv, SiPython, SiNumpy, SiWindows, SiSass, SiJavascript, SiHtml5, SiJquery, SiCss3, SiReact, SiBootstrap, SiNestjs, SiSwagger, SiTypeorm, SiVite, SiFramer, SiReactrouter } from 'react-icons/si';
+import { SiNextdotjs, SiTailwindcss, SiPrisma, SiMysql,
+   SiCloudinary, SiTypescript, SiZod, SiClerk, SiOpencv, SiPython, SiNumpy, SiWindows, SiSass, SiJavascript, SiHtml5, SiJquery, SiCss3, SiReact, SiBootstrap, SiNestjs, SiSwagger, SiTypeorm, SiVite, SiFramer, SiReactrouter } from 'react-icons/si';
 
 export const techIcons1 = [
   { component: FaReact, name: 'React' },
@@ -47,21 +48,23 @@ export const iconColors2 = [
   '#EC5990',    // React Hook Form
   '#4A90E2'     // React Quill
 ];
-// Tech Stack for CV-Macro
+
+
 export const techIcons3 = [
-  { component: SiOpencv, name: 'OpenCV' },
-  { component: SiPython, name: 'Python' },
-  { component: SiNumpy, name: 'NumPy' },
-  { component: SiWindows, name: 'Windows' }
+  { component: SiTypescript, name: 'Typescript' },
+  { component: SiVite, name: 'Vite' },
+  { component: SiReact, name: 'React' },
+  { component: SiSass, name: 'Sass' },
 ];
 
 export const iconColors3 = [
-  '#5C3EE8',  // OpenCV
-  '#FFD43B',  // Python
-  '#013243',  // NumPy
-  '#00BCF2',  // Windows
-  '#FFFAF0'   // Tkinter
+  '#3178C6', // TypeScript
+  '#646CFF', // Vite
+  '#61DAFB', // React
+  '#CD6799'  // Sass
 ];
+
+
 
 export const techIcons4 = [
   { component: SiReact, name: 'React.js' },
@@ -96,13 +99,15 @@ export const iconColors5 = [
 
 
 export const techIcons6 = [
+  { component: SiTypescript, name: 'Typescript' },
+  { component: SiVite, name: 'Vite' },
+  { component: SiReact, name: 'React' },
   { component: SiSass, name: 'Sass' },
-  { component: SiJavascript, name: 'JavaScript' },
-  { component: SiHtml5, name: 'HTML5' }
 ];
 
 export const iconColors6 = [
-  '#CD6799',  // OpenCV
-  '#F7DF1E',  // Python
-  '#E34C26'
+  '#3178C6', // TypeScript
+  '#646CFF', // Vite
+  '#61DAFB', // React
+  '#CD6799'  // Sass
 ];
