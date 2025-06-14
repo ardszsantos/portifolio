@@ -5,10 +5,12 @@ import camisasTop from '../assets/images/ecommerce.png'
 import { MdOutlineWebAssetOff, MdOutlineWebAsset } from "react-icons/md";
 import { techIcons1, techIcons2, techIcons3, iconColors1, iconColors2, iconColors3, techIcons4, iconColors4, techIcons5, iconColors5, techIcons6, iconColors6 } from '../components/techStack';
 import opencvImg from '../assets/images/OPENCV.png'
+import santeLogo from '../assets/images/santelogo.svg'
 import urlShortner from '../assets/images/urlShortner.png'
 import painelCorinthians from '../assets/images/painel.png'
 import presentationImg from '../assets/images/presentationImg.png'
 import cTrouble from '../assets/images/ctroublesmLogo.png'
+import toqAI from '../assets/images/toqFavIcon.svg'
 
 
 const ProjectsSection = (props) => {
@@ -17,15 +19,16 @@ const ProjectsSection = (props) => {
   const webIcon = <MdOutlineWebAsset />;
   const project1GitUrl = 'https://github.com/ardszsantos/ecommerce-store';
   const project2GitUrl = 'https://github.com/code-trouble/SD.Code-Trouble.Frontend';
-  const project3GitUrl = 'https://github.com/ardszsantos/CV-Macro';
+  const project3GitUrl = 'https://github.com/suporte-de-domingo/clinica-sante-landpage';
   const project4GitUrl = 'https://github.com/ardszsantos/urlShortner-front/tree/production';
   const project5GitUrl = 'https://github.com/ardszsantos/painel-corinthians';
-  const project6GitUrl = 'https://github.com/ardszsantos/presentation-page';
+  const project6GitUrl = 'https://github.com/Toque-AI/toque-ai-landpage';
   const project1Demo = 'https://ecommerce-store-fredaobobs-projects.vercel.app/';
   const project2Demo = 'https://codetrouble.com.br/';
+  const project3Demo = 'https://clinicasantesp.com.br/';
   const project4Demo = 'https://urlshortner-front.onrender.com/';
   const project5Demo = 'https://painel-corinthians.vercel.app/';
-  const project6Demo = 'https://ardszsantos.github.io/presentation-page/';
+  const project6Demo = 'https://toqueai.com.br/';
 
   return (
     <div {...props} id='projects' className="projects-wrapper">
@@ -60,15 +63,16 @@ const ProjectsSection = (props) => {
             />
 
             <ProjectCard
-              imgUrl={opencvImg}
+              imgUrl={santeLogo}
               title={t('project3_title')}
               description={t('project3_description')}
               detailedDescription={t('project3_detailed_description')}
-              iconComponent={noWebIcon}
+              iconComponent={webIcon}
               gitUrl={project3GitUrl}
+              pageUrl={project3Demo}
               techIcons={techIcons3}
               iconColors={iconColors3}
-              date={'08/24'}
+              date={'03/25'}
             />
           </div>
           <div className="projects-container">
@@ -99,7 +103,7 @@ const ProjectsSection = (props) => {
             />
 
             <ProjectCard
-              imgUrl={presentationImg}
+              imgUrl={toqAI}
               title={t('project6_title')}
               description={t('project6_description')}
               detailedDescription={t('project6_detailed_description')}
@@ -108,7 +112,7 @@ const ProjectsSection = (props) => {
               pageUrl={project6Demo}
               techIcons={techIcons6}
               iconColors={iconColors6}
-              date={'09/24'}
+              date={'06/25'}
             />
           </div>
         </div>
