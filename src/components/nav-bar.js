@@ -79,12 +79,7 @@ const NavBar = () => {
     <div className="main-nav">
       <div className='logo'>
         ards.dev
-        <animated.img
-          src={terminal}
-          alt="Terminal icon"
-          onClick={toggleTerminal}
-          style={pulseWithGlow} // Apply the animation
-        />
+
       </div>
       <nav className={`navigation ${isOpen ? 'active' : ''}`}>
         {/* Update anchor tags to use smoothScrollToSection */}
