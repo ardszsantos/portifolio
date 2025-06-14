@@ -34,16 +34,14 @@ const resources = {
       "terminal_error_message": "Command not found!",
       "terminal_help_message": "Available cmds: cd (hero, about, projects, contact) | echo (text) | exit ",
 
-      // Card Descriptions (About Me)
-      "about_me_description_1": "I am 18 years old, and I am completely passionate about code. Despite my current focus on ",
-      "about_me_frontend": "front-end",
-      "about_me_description_2": "my goal is to become a ",
-      "about_me_fullstack": "fullstack developer. ",
-      "about_me_description_3": "In addition to web development, I have experience with process automation using ",
-      "about_me_python": "Python",
-      "about_me_description_4": "and in Data Analysis.",
+      "about_me_description_1": "I'm a",
+      "about_me_frontend": "front-end developer",
+      "about_me_description_2": "with experience in",
+      "about_me_fullstack": " full-stack projects",
+      "about_me_description_3": "mainly working with modern web technologies.",
+      "about_me_description_4": "",
 
-      //experiences
+          //experiences
       "experiences-title": "> experiences_",
       "experiences-senaiTitle": "Linux Server Administration - SENAI",
       "experiences-senaiDescription": "60-hour course focused on the creation, management, and maintenance of Linux servers, with a focus on security and task automation.",
@@ -83,9 +81,9 @@ const resources = {
       "project2_description": "A modern, interactive front-end application built to help developers manage and resolve code issues efficiently.",
       "project2_detailed_description": "Code Trouble leverages a contemporary tech stack—React, Vite, and TypeScript for structure and performance, Sass for styling, and Framer Motion for smooth animations—to create a fast, responsive, and visually engaging user experience. With robust form handling via React Hook Form and rich text editing powered by React Quill, Code Trouble streamlines the process of reporting and tracking coding problems, making it easier for teams to collaborate on debugging and improving their codebases.",   
       
-      "project3_title": "OpenCv Automation",
-      "project3_description": "Automation using computer vision. Recognizes images and executes actions.",
-      "project3_detailed_description": "An automation tool utilizing OpenCV to recognize objects and trigger automated responses, suitable for a variety of use cases in image recognition.",
+      "project3_title": "Clinica Santé",
+      "project3_description": "Landing page build for an odontology companay.",
+      "project3_detailed_description": "Landing page developed by SD",
 
       "project4_title": "URL Shortener",
       "project4_description": "A simple URL shortener.",
@@ -95,9 +93,9 @@ const resources = {
       "project5_description": "Page with news about Corinthians using newsapi.org",
       "project5_detailed_description": "A simple page that displays news about Corinthians, using the NewsAPI to get the latest news and display them in a clean and responsive layout.",
 
-      "project6_title": "Personal Presentation",
-      "project6_description": "Page with information about me.",
-      "project6_detailed_description": "Page made with the objective of presenting myself.",
+      "project6_title": "Toque AI",
+      "project6_description": "QR Code-based location service designed to help identify and recover lost people, pets, and objects.",
+      "project6_detailed_description": "Toque AI is a QR Code-based platform for identifying and recovering lost people, pets, and objects, as well as replacing doorbells and intercoms in residences. I work as a front-end developer on the website and app, focusing on responsiveness, performance, and user experience.",
 
       // Footer Section (new translations)
       "footer_all_rights": "All rights reserved.",
@@ -146,13 +144,12 @@ const resources = {
       "terminal_help_message": "Comandos disponíveis: cd (ola, sobre, projetos, contato) | echo (texto) | exit ",
 
       // Card Descriptions (About Me)
-      "about_me_description_1": "Tenho 18 anos, sou completamente apaixonado por código. Apesar do meu foco atual em ",
-      "about_me_frontend": "front-end",
-      "about_me_description_2": "tenho como objetivo me tornar um ",
-      "about_me_fullstack": "desenvolvedor fullstack. ",
-      "about_me_description_3": "Além do desenvolvimento web, tenho experiência com automação de processos usando ",
-      "about_me_python": "Python",
-      "about_me_description_4": "e em Análise de Dados.",
+      "about_me_description_1": "Sou um",
+      "about_me_frontend": "desenvolvedor front-end",
+      "about_me_description_2": "com experiência em",
+      "about_me_fullstack": " projetos full-stack",
+      "about_me_description_3": "atuando principalmente com tecnologias web modernas.",
+      "about_me_description_4": "",
 
       //experiences
 
@@ -192,9 +189,9 @@ const resources = {
       "project2_description": "Uma aplicação front-end moderna e interativa criada para ajudar desenvolvedores a gerenciar e resolver problemas de código de forma eficiente.",
       "project2_detailed_description": "O Code Trouble utiliza uma stack tecnológica contemporânea — React, Vite e TypeScript para estrutura e desempenho, Sass para estilização, e Framer Motion para animações suaves — para criar uma experiência de usuário rápida, responsiva e visualmente envolvente. Com um gerenciamento robusto de formulários via React Hook Form e edição de texto enriquecido com React Quill, o Code Trouble simplifica o processo de relatar e rastrear problemas de código, facilitando a colaboração entre equipes na depuração e melhoria de suas bases de código.",
 
-      "project3_title": "Automação com OpenCv",
-      "project3_description": "Automação utilizando visão computacional. Reconhece imagens e executa ações.",
-      "project3_detailed_description": "Ferramenta de automação que utiliza OpenCV para reconhecer objetos e acionar respostas automáticas, adequada para uma variedade de casos de uso em reconhecimento de imagens.",
+      "project3_title": "Clinica Santé",
+      "project3_description": "Landing page feita para uma empresa de odontologia.",
+      "project3_detailed_description": "Desenvolvido por suporte de domingo.",
 
       "project4_title": "Encurtador de URL",
       "project4_description": "Um encurtador de URL simples.",
@@ -204,9 +201,9 @@ const resources = {
       "project5_description": "Página com notícias sobre o corinthians usando newsapi.org",
       "project5_detailed_description": "Uma página simples que exibe notícias sobre o Corinthians, utilizando a API do NewsAPI para obter as últimas notícias e exibi-las em um layout limpo e responsivo.",
 
-      "project6_title": "Apresentação Pessoal",
-      "project6_description": "Página com informações sobre mim.",
-      "project6_detailed_description": "Página feita com o objetivo de me apresentar.",
+      "project6_title": "Toque AI",
+      "project6_description": "Serviço de localização baseado em QR Code projetado para auxiliar na identificação e recuperação de pessoas, animais de estimação e objetos perdidos.",
+      "project6_detailed_description": "A Toqueai é uma plataforma baseada em QR Code para identificação e recuperação de pessoas, pets e objetos perdidos, além de substituir campainhas e porteiros em residências. Atuo como desenvolvedor front-end no desenvolvimento do site e aplicativo, focando em responsividade, performance e experiência do usuário.",
 
       // Footer Section (new translations)
       "footer_all_rights": "Todos os direitos reservados.",
