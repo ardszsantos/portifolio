@@ -74,27 +74,27 @@ const resources = {
       // Projects Section
       "projects_title": "> projects_",
       "project1_title": "camisasTop - Store",
-      "project1_description": "Full-Stack E-Commerce Store, made to sell any product.",
+      "project1_description": "Full-stack online store for selling any product.",
       "project1_detailed_description": "A complete e-commerce platform with both front-end and back-end implementation, providing features like product management, cart, and payment integration for seamless user experience.",
 
       "project2_title": "Code Trouble Web - WIP",
-      "project2_description": "A modern, interactive front-end application built to help developers manage and resolve code issues efficiently.",
+      "project2_description": "Interactive front-end app that helps developers track and resolve code issues.",
       "project2_detailed_description": "Code Trouble leverages a contemporary tech stack—React, Vite, and TypeScript for structure and performance, Sass for styling, and Framer Motion for smooth animations—to create a fast, responsive, and visually engaging user experience. With robust form handling via React Hook Form and rich text editing powered by React Quill, Code Trouble streamlines the process of reporting and tracking coding problems, making it easier for teams to collaborate on debugging and improving their codebases.",   
       
       "project3_title": "Clinica Santé",
-      "project3_description": "Landing page build for an odontology companay.",
-      "project3_detailed_description": "Landing page developed by SD",
+      "project3_description": "Landing page built for a dentistry company.",
+      "project3_detailed_description": "Landing page created to showcase the services of Clinica Santé.",
 
       "project4_title": "URL Shortener",
-      "project4_description": "A simple URL shortener.",
+      "project4_description": "Simple URL shortener.",
       "project4_detailed_description": "This project uses React and Bootstrap on the front end to create a simple, responsive user interface. On the back end, NestJS is used with TypeORM for database management, leveraging MySQL hosted on Aiven. The project also integrates Swagger for automatic API documentation, making it easier to view and use routes. The shortener allows users to input long URLs and get shortened URLs with immediate redirection.",
 
       "project5_title": "Corinthians Panel",
-      "project5_description": "Page with news about Corinthians using newsapi.org",
+      "project5_description": "News page about Corinthians built with NewsAPI.",
       "project5_detailed_description": "A simple page that displays news about Corinthians, using the NewsAPI to get the latest news and display them in a clean and responsive layout.",
 
       "project6_title": "Toque AI",
-      "project6_description": "QR Code-based location service designed to help identify and recover lost people, pets, and objects.",
+      "project6_description": "QR Code-based service to locate missing people, pets, and objects.",
       "project6_detailed_description": "Toque AI is a QR Code-based platform for identifying and recovering lost people, pets, and objects, as well as replacing doorbells and intercoms in residences. I work as a front-end developer on the website and app, focusing on responsiveness, performance, and user experience.",
 
       // Footer Section (new translations)
@@ -182,27 +182,27 @@ const resources = {
       // Projetos
       "projects_title": "> projetos_",
       "project1_title": "camisasTop - Loja",
-      "project1_description": "Loja online Full-Stack, feita para a veda de qualquer produto.",
+      "project1_description": "Loja online full-stack feita para vender qualquer produto.",
       "project1_detailed_description": "Uma plataforma completa de e-commerce, com implementação de front-end e back-end, oferecendo recursos como gerenciamento de produtos, carrinho e integração de pagamentos para uma experiência de usuário fluida.",
 
       "project2_title": "Code Trouble Web - WIP",
-      "project2_description": "Uma aplicação front-end moderna e interativa criada para ajudar desenvolvedores a gerenciar e resolver problemas de código de forma eficiente.",
+      "project2_description": "Aplicação front-end interativa que ajuda desenvolvedores a gerenciar e resolver problemas de código.",
       "project2_detailed_description": "O Code Trouble utiliza uma stack tecnológica contemporânea — React, Vite e TypeScript para estrutura e desempenho, Sass para estilização, e Framer Motion para animações suaves — para criar uma experiência de usuário rápida, responsiva e visualmente envolvente. Com um gerenciamento robusto de formulários via React Hook Form e edição de texto enriquecido com React Quill, o Code Trouble simplifica o processo de relatar e rastrear problemas de código, facilitando a colaboração entre equipes na depuração e melhoria de suas bases de código.",
 
       "project3_title": "Clinica Santé",
-      "project3_description": "Landing page feita para uma empresa de odontologia.",
-      "project3_detailed_description": "Desenvolvido por suporte de domingo.",
+      "project3_description": "Landing page criada para uma empresa de odontologia.",
+      "project3_detailed_description": "Landing page criada para apresentar os serviços da Clínica Santé.",
 
       "project4_title": "Encurtador de URL",
-      "project4_description": "Um encurtador de URL simples.",
+      "project4_description": "Encurtador de URL simples.",
       "project4_detailed_description": "Este projeto utiliza React e Bootstrap no front-end para criar uma interface de usuário simples e responsiva. No back-end, é utilizado NestJS com TypeORM para gerenciamento de banco de dados, utilizando MySQL hospedado na Aiven. O projeto também integra Swagger para documentação automática da API, facilitando o uso e a visualização das rotas. O encurtador permite que os usuários insiram URLs longas e obtenham URLs curtas com redirecionamento imediato.",
 
       "project5_title": "Painel Corinthians",
-      "project5_description": "Página com notícias sobre o corinthians usando newsapi.org",
+      "project5_description": "Página de notícias sobre o Corinthians utilizando a NewsAPI.",
       "project5_detailed_description": "Uma página simples que exibe notícias sobre o Corinthians, utilizando a API do NewsAPI para obter as últimas notícias e exibi-las em um layout limpo e responsivo.",
 
       "project6_title": "Toque AI",
-      "project6_description": "Serviço de localização baseado em QR Code projetado para auxiliar na identificação e recuperação de pessoas, animais de estimação e objetos perdidos.",
+      "project6_description": "Serviço baseado em QR Code para localizar pessoas, animais de estimação e objetos perdidos.",
       "project6_detailed_description": "A Toqueai é uma plataforma baseada em QR Code para identificação e recuperação de pessoas, pets e objetos perdidos, além de substituir campainhas e porteiros em residências. Atuo como desenvolvedor front-end no desenvolvimento do site e aplicativo, focando em responsividade, performance e experiência do usuário.",
 
       // Footer Section (new translations)
